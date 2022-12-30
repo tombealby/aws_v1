@@ -1,0 +1,154 @@
+/* https://www.w3schools.com/colors/colors_shades.asp */
+
+body {
+	background-color: #ffffff;
+}
+
+p, h1, h2, h3, .bookreviews li, .qualifications li, .motivation li {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.intro, .summary, .motivation, .employments,
+.qualifications, .bookreviews, .imagecontainer,
+.blogs, .blogList, .collapsible {
+	margin: 2em auto;
+	width: 50%;
+}
+
+.blogs .blogList {
+	width: 70%;
+}
+
+#problemSolver img {
+	width: 100%;
+}
+
+#familyTragedy img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#halifaxPlaneContainer img {
+	width: 50%;
+}
+
+#blogs li, .blogs li {
+	margin-top: 1em;
+}
+
+#blogsHome #blogs {
+	display: block;
+}
+
+.collapsible {
+	display: grid;
+}
+
+.intro {
+	background-color: #d0f0f6;
+	padding: 2em;
+	border-style: ridge;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#blogs button {
+	text-decoration: underline;
+}
+
+#blogs h2, #blogs h3, .blogs h2, .blogs h3 {
+	color: #28abe2;
+}
+
+#blogs #blogsPageHeading {
+	color: initial;
+}
+
+#blogs p, .blogs p {
+	text-align: justify;
+}
+
+.blogs p {
+	width: 75%;
+}
+
+@media (max-width: 480px) {
+	.blogs p {
+		width: 100%;
+	}
+}
+
+#blogs p.authoredBy, .blogs p.authoredBy {
+	text-align: center;
+	margin: auto;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #cff;
+  color: #444;
+  cursor: pointer;
+  padding: 1em;
+  border: ridge;
+  outline: none;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  background-color: #ccc;
+}
+
+.collapsible:hover {
+  background-color: #ccf;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
