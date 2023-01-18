@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package uk.co.tradewaysoftsys.controller;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -21,7 +21,7 @@ public class CvControllerTest {
 
 	@Test
 	public void call_cvUrl_returnsCvViewAnd200Response() throws Exception {
-		mockMvc.perform(get("/tombealby/cv")).andExpect(status().isOk()).andExpect(view().name("cv"));
+		mockMvc.perform(get("/tombealby/cv")).andExpect(status().isOk()).andExpect(view().name("fragments/tombealby/cv/cv"));
 	}
 
 	@Test

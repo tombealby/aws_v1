@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>David Bealby Blogs</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+</head>
+<body class="blogsHome">
+
+<h1>David Bealby</h1>
+
+<h2 id="blogsPageHeading">Blogs</h2>
+
+<button type="button" class="collapsible"><strong>Click here</strong> To read a blog: A Hot Journey</button>
+
+<div class="content">
+  <p><div th:replace="fragments/davidbealby/blogs/hotJourney :: hotJourney"></div></p>
+</div>
+
+<div class="imagecontainer">
+    <img src="/images/d_bealby.png" alt="David Bealby">
+</div>
+
+<h2 class="watermark">&copy; 2023 Tradeway Software Systems<h2/>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var element = document.getElementById("bookreviews");
+element.classList.remove("tabcontent");
+
+</script>
+</body>
+</html>

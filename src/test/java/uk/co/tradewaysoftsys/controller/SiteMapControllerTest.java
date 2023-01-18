@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package uk.co.tradewaysoftsys.controller;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

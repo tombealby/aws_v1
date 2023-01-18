@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package uk.co.tradewaysoftsys.controller;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -23,7 +23,9 @@ public class BlogControllerTest {
 
 	@Test
 	public void call_blogsUrl_returnsBlogsViewAnd200Response() throws Exception {
-		mockMvc.perform(get("/tombealby/blogs")).andExpect(status().isOk()).andExpect(view().name("blogsHome"));
+		mockMvc.perform(get("/tombealby/blogs"))
+		.andExpect(status().isOk())
+		.andExpect(view().name("fragments/tombealby/blogs/blogsHome"));
 	}
 
 	@Test
@@ -48,10 +50,18 @@ public class BlogControllerTest {
         assertTrue(content.contains("To read blog: Tom Sharpe, A Family Tragedy"));
 	}
 
+	@Test
+	public void call_individualBlogUrl_returnsResponseBodyWithMainHeading() throws Exception {
+		mockMvc.perform(get("/tombealby/blogs/problemSolver"))
+		.andExpect(status().isOk())
+		.andExpect(view().name("fragments/tombealby/blogs/problemSolver"))
+		.andExpect(content().string(containsString("My Job as a Problem Solver")));
+	}
+
 	private String makeExpectedMainHeading() {
 		return "<h1>Tom Bealby</h1>\n" +
 				"\n" +
-				"<h2>email: tom.bealby67@gmail.com</h2>";
+				"<h2 class=\"email\">email: tom.bealby67@gmail.com</h2>";
 	}
 
 }
