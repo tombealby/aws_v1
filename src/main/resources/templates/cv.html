@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Tom Bealby CV</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+    <script src="/js/cv.js"></script>
+</head>
+<body>
+
+<!-- Tab links -->
+<div class="tab">
+  <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'summary')">Summary</button>
+  <button class="tablinks" onclick="openTab(event, 'motivation')">Work Values and Motivation</button>
+  <button class="tablinks" onclick="openTab(event, 'employments')">Employment History</button>
+  <button class="tablinks" onclick="openTab(event, 'qualifications')">Qualifications and Certifications</button>
+  <button class="tablinks" onclick="openTab(event, 'bookreviews')">Book Reviews</button>
+  <button class="tablinks" onclick="openTab(event, 'blogs')">Blogs</button>
+</div>
+
+<h1>Tom Bealby</h1>
+
+<h2>email: tom.bealby67@gmail.com</h2>
+
+<div th:replace="fragments/summary :: summary"></div>
+<div th:replace="fragments/motivation :: motivation"></div>
+<div th:replace="fragments/employments :: employments"></div>
+<div th:replace="fragments/qualifications :: qualifications"></div>
+<div th:replace="fragments/bookreviews :: bookreviews"></div>
+<div th:replace="fragments/blogs :: blogs"></div>
+
+
+<h2>&copy; 2023 Tradeway Software Systems<h2/>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
