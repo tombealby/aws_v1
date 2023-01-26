@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tom Bealby CV</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link media="all" rel="stylesheet" type="text/css" href="/css/tom.css" />
+</head>
+<body>
+
+<div  id="blogs" class="tabcontent" th:fragment="blogs">
+
+<h2 id="blogsPageHeading">Blogs</h2>
+
+<button type="button" class="collapsible"><strong>Click here</strong> To read a blog written in 2018 while working at Centiq: My Job as a Problem Solver</button>
+
+<div class="content">
+  <p><div th:replace="fragments/tombealby/blogs/problemSolver :: problemSolver"></div></p>
+</div>
+
+<button type="button" class="collapsible"><strong>Click here</strong> To read blog: Tom Sharpe, A Family Tragedy</button>
+
+<div class="content">
+  <p><div th:replace="fragments/tombealby/blogs/familyTragedy :: familyTragedy"></div></p>
+</div>
+
+<button type="button" class="collapsible" th:if="${#bools.isTrue(isViewBlogsHome)}">
+<strong>Click here</strong> To read blog: Technical Book Reviews</button>
+
+<div class="content" th:if="${#bools.isTrue(isViewBlogsHome)}">
+  <p><div th:replace="fragments/tombealby/blogs/bookreviews :: bookreviews"></div></p>
+</div>
+
+<button type="button" class="collapsible"><strong>Click here</strong> To read blog: Why And How This Website Was Built</button>
+
+<div class="content">
+  <p><div th:replace="fragments/tombealby/blogs/howTheWebsiteWasBuilt :: howTheWebsiteWasBuilt"></div></p>
+</div>
+
+</div>
+
+</body>
+</html>

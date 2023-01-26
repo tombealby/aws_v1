@@ -19,7 +19,7 @@ The books have been listed in rough chronological order in terms of when I read 
 </div>
 
 <h3>Books read early in my career</h3>
-<p>You might consider reading these books if you are starting your development career.</p>
+<p class="bookreviewsubheading">You might consider reading these books if you are starting your development career.</p>
 <p>
 <ul class="bookreviews">
 <li>SCJP Sun Certified Programmer for Java 6 Study Guide
@@ -39,7 +39,7 @@ effort to complete. However the effort is well rewarded by making Javascript muc
 </p>
 
 <h3>Books read a few years into my career</h3>
-<p>You might consider reading these books if you are looking to consolidate your development career.</p>
+<p class="bookreviewsubheading">You might consider reading these books if you are looking to consolidate your development career.</p>
 <p>
 <ul class="bookreviews">
 <li>Spring in Action by Craig Walls</li>
@@ -101,6 +101,10 @@ the non-functional requirements of software systems.</p>
 
 <div class="imagecontainer">
     <img src="/images/books_1.jpg" alt="old books">
+</div>
+
+<div th:if="${#bools.isTrue(isViewBlogsHome)}">
+<p class="authoredBy">By: Tom Bealby - January 2023</p>
 </div>
 
 </div>

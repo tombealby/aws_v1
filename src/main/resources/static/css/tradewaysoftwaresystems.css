@@ -4,7 +4,7 @@ body {
 	background-color: #ffffff;
 }
 
-p, h1, h2, h3, .bookreviews li, .qualifications li, .motivation li {
+p, h1, h2, h3, h4, h5, .bookreviews li, .qualifications li, .motivation li {
 	text-align: center;
 }
 
@@ -41,12 +41,29 @@ img {
 	margin-top: 1em;
 }
 
-#blogsHome #blogs {
+.blogsHome #blogs {
 	display: block;
 }
 
 .collapsible {
 	display: grid;
+}
+
+ul.motivation, ul.qualifications, ul.bookreviews, .motivation ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+span.code {
+	font-family: Arial;
+	margin-top: 0.3em;
+	text-align: center;
+	display: inline-block;
+	background-color: #fff4f9;
+}
+
+#blogs p.bookreviewsubheading {
+	text-align: center;
 }
 
 .intro {
@@ -63,15 +80,17 @@ img {
 	text-decoration: underline;
 }
 
-#blogs h2, #blogs h3, .blogs h2, .blogs h3 {
+#blogs h2, #blogs h3, #blogs h4, #blogs h5, .blogs h2, .blogs h3,
+.blogsHome h2, .blogsHome h3, .blogsHome h4, .blogsHome h5 {
 	color: #28abe2;
 }
 
-#blogs #blogsPageHeading {
+#blogs #blogsPageHeading, .blogsHome #blogsPageHeading, .blogsHome .watermark,
+.blogsHome .email {
 	color: initial;
 }
 
-#blogs p, .blogs p {
+#blogs p, .blogs p, .blogsHome p {
 	text-align: justify;
 }
 
@@ -85,7 +104,7 @@ img {
 	}
 }
 
-#blogs p.authoredBy, .blogs p.authoredBy {
+#blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy {
 	text-align: center;
 	margin: auto;
 }
@@ -149,6 +168,6 @@ img {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #f1f9f9;
 }
 

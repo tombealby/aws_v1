@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package uk.co.tradewaysoftsys.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +14,7 @@ public class CvController {
 	
 	@GetMapping("/tombealby/cv")
 	public String showCv(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-		return "cv";
+		return "fragments/tombealby/cv/cv";
 	}
 
 }

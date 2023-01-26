@@ -5,19 +5,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
 </head>
-<body id="blogsHome">
+<body class="blogsHome">
 
 <h1>Tom Bealby</h1>
 
-<h2>email: tom.bealby67@gmail.com</h2>
+<h2 class="email">email: tom.bealby67@gmail.com</h2>
 
-<div th:replace="fragments/blogs :: blogs"></div>
+<div th:replace="fragments/tombealby/blogs/blogs :: blogs"></div>
 
 <div class="imagecontainer">
     <img src="/images/my_photo.jpg" alt="Tom Bealby">
 </div>
 
-<h2>&copy; 2023 Tradeway Software Systems<h2/>
+<h2 class="watermark">&copy; 2023 Tradeway Software Systems<h2/>
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -33,6 +33,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+var element = document.getElementById("bookreviews");
+element.classList.remove("tabcontent");
 
 </script>
 </body>
