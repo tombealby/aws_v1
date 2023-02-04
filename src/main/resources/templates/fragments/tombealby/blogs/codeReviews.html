@@ -26,14 +26,16 @@
       
       <h3>Bug Hunting</h3>
       <p class="summary"> The first thing a reviewer must do on starting a review is to understand the requirements. The
-      changes must be reviewed with the requirements at the front of the reviewer's mind. The reviewer should be hunting for
-      two types of bug. There is the 'quick win' that is spotted while eye balling the code. Spotting quick wins saves the
-      to and fro of building, deploying to test, QA testing, and back to development. That's a huge saving. The second type of
-      bug is more subtle. This is a bug that is deduced by a logical analysis of the code. This is particularly relevant to changes
-      involving SQL. Analysis of the SQL can identify particular data scenarios that will cause the logic to fail. These types
-      of bugs can be hard for the QAs to find. These bugs can leak into production. Ideally the reviewer will set up data in their
-      test environment and attempt to reproduce the bug. If the bug is genuine then the reviewer must add detailed steps as to 
-      how to reproduce the bug in their review comments. </p>
+      changes must be reviewed with the requirements at the front of the reviewer's mind. Do the changes under review meet
+      the requirements?</p>
+
+      <p class="summary">The reviewer should be hunting for two types of bug. There is the 'quick win' that is spotted while eye balling the code. 
+      Spotting quick wins saves the to and fro of building, deploying to test, QA testing, and back to development. That's a huge 
+      saving. The second type of bug is more subtle. This is a bug that is deduced by a logical analysis of the code. This is 
+      particularly relevant to changes involving SQL. Analysis of the SQL can identify particular data scenarios that will cause 
+      the logic to fail. These types of bugs can be hard for the QAs to find. These bugs can leak into production. Ideally the 
+      reviewer will set up data in their test environment and attempt to reproduce the bug. If the bug is genuine then the reviewer 
+      must add detailed steps as to how to reproduce the bug in their review comments. </p>
    		
       <h3>Coding standards</h3>
       <p class="summary">Code reviews are used to maintain coding standards. Reviewers ask for changes to be made
@@ -44,7 +46,7 @@
       and creativity into creating a particular solution. It will inevitably be de-motivating if they feel like that effort is 
       not being used. So I would say 'yes', by all means ask for changes, but only where necessary. If at all possible, I try to 
       accept the change that is in front of me. </p>
-      <p class="summary">If I do want changes I try to be as helpful as possible to the reviewee. If time, permits I will write a
+      <p class="summary">If I do want changes I try to be as helpful as possible to the reviewee. If time permits, I will write a
       working piece of code, and explain why I think it might be an improvement. It is important that the reviewer and reviewee
       work together as a team. It is as much the responsibility of the reviewer to get the code to pass code review, as it is
       of the reviewee. </p>
@@ -58,7 +60,7 @@
       
 	  <h3>Don't Forget The Tests</h3>
       <p class="summary">I have heard developers say that they don't bother checking the tests when they do a review. Please no! The
-      tests are just as important as the implementation code. </p>
+      quality of the tests is just as important as that of the implementation code. </p>
  
  	  <h3>Don't Forget The Good</h3>
       <p class="summary">It is important to find good, as well as bad, in the changes that we are reviewing. When we see good, we should
