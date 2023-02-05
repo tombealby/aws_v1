@@ -11,15 +11,14 @@
       <h2>Code Reviews, My Dos and Don'ts</h2>
       
       <p class="summary">The ubiquitous code review. The process of a peer reviewing another developer's
-      work, before it is submitted to test. In the light of the reluctance of the industry to adopt pair
-      programming, the code review has become the industry standard method for ensuring code quality.
-      However, anyone who has been in the industry for any amount of time, knows what a subjective process
-      the code review is. The review comments on the same piece of work by two different reviewers are
-      likely to be vastly different, chalk and cheese. There is the 'hard' reviewer, who demands a re-write
-      of virtually every line of code. There is the 'soft' reviewer, who lets the reviewee get away with 
-      the earth. So how do we find a balance? What makes a good code review?</p>
+      work, before it is submitted to test. The code review has become the de facto industry method for 
+      ensuring code quality. However, anyone who has been in the industry for any amount of time, 
+      knows what a subjective process the code review is. The review comments on the same piece of work 
+      by two different reviewers are likely to be vastly different, chalk and cheese. There is the 'hard' 
+      reviewer, who demands a re-write of virtually every line of code. There is the 'soft' reviewer, who 
+      lets the reviewee get away with the earth. So how do we find a balance? What makes a good code review?</p>
 
-      <h3>Aims of the code review</h3>
+      <h3>Aims Of The Code Review</h3>
       <p class="summary">We need to be clear about what we want out of a code review. For me, a code review 
       has several purposes. Yes, ensuring a certain minimum code quality is important. However a review can
       also play an important role in preventing bugs.</p>
@@ -31,13 +30,15 @@
 
       <p class="summary">The reviewer should be hunting for two types of bug. There is the 'quick win' that is spotted while eye balling the code. 
       Spotting quick wins saves the to and fro of building, deploying to test, QA testing, and back to development. That's a huge 
-      saving. The second type of bug is more subtle. This is a bug that is deduced by a logical analysis of the code. This is 
+      saving.</p> 
+
+      <p class="summary">The second type of bug is more subtle. This is a bug that is deduced by a logical analysis of the code. This is 
       particularly relevant to changes involving SQL. Analysis of the SQL can identify particular data scenarios that will cause 
       the logic to fail. These types of bugs can be hard for the QAs to find. These bugs can leak into production. Ideally the 
       reviewer will set up data in their test environment and attempt to reproduce the bug. If the bug is genuine then the reviewer 
       must add detailed steps as to how to reproduce the bug in their review comments. </p>
-   		
-      <h3>Coding standards</h3>
+
+      <h3>Coding Standards</h3>
       <p class="summary">Code reviews are used to maintain coding standards. Reviewers ask for changes to be made
       to code that needs improvement. Of course, this is fine. The code needs to be improved and the reviewee needs to learn 
       how to write better code. But I would qualify that by saying the requests must be 'within reason'. I have seen reviews 
@@ -51,11 +52,11 @@
       work together as a team. It is as much the responsibility of the reviewer to get the code to pass code review, as it is
       of the reviewee. </p>
 	  
- 	  <h3>How long should a code review take?</h3>
+ 	  <h3>How Long Should A Code Review Take?</h3>
       <p class="summary">Uncle Bob (Martin) suggests that, if the work has not been developed using pair programming, then it is 
       reasonable for the reviewer to spend up to the time that was taken by the reviewee to make the code changes, on their review. 
       I would say, in an ideal world 'yes'. However I doubt whether many managers would accept that. As a rule of thumb, I would 
-      argue that a spending a third to half the time that the reviewee took, on the review is reasonable and realistic. Any review 
+      suggest that spending a third to half of the time that the reviewee took, on the review is reasonable and realistic. Any review 
       that hasn't taken this time has probably not been thorough enough.</p>
       
 	  <h3>Don't Forget The Tests</h3>
