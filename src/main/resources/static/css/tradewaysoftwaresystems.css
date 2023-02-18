@@ -15,7 +15,9 @@ img {
 
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
-.blogs, .blogList, .collapsible {
+.blogs, .blogList, .collapsible, #blogs p,
+#cv #bookreviews p.bookreviewsubheading,
+#cv #bookreviews p.bookreviewmainheading {
 	margin: 2em auto;
 	width: 50%;
 }
