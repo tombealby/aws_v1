@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tom Bealby Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Tom Bealby">
+  	<meta name="author" content="Tom Bealby">
+    <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+</head>
+<body class="homePage">
+
+<h1>Tom Bealby Home Page</h1>
+
+<h2 class="email">email: tom.bealby67@gmail.com</h2>
+
+<p class="intro">Welcome To My Home Page!</p>
+
+<div>
+<a class="tradewayLink" th:href="@{/tombealby/blogs?requestFromHomePage=true}"><strong>Click here</strong><br>To read: Blogs</a>
+<a class="tradewayLink" th:href="@{/tombealby/cv?requestFromHomePage=true}"><strong>Click here</strong><br>To read: CV</a>
+</div>
+
+<div class="imagecontainer">
+    <img src="/images/my_photo.jpg" alt="Tom Bealby">
+</div>
+
+<h2 class="watermark">&copy; 2023 Tradeway Software Systems<h2/>
+</body>
+</html>
