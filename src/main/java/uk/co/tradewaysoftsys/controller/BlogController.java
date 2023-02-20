@@ -30,4 +30,9 @@ public class BlogController {
 		return "fragments/tombealby/blogs/familyTragedy";
 	}
 
+	@GetMapping("/tombealby/blogs/codeReviews")
+	public String showCodeReviews(Model model) {
+		return "fragments/tombealby/blogs/codeReviews";
+	}
+
 }

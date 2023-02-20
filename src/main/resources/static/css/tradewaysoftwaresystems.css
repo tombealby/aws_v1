@@ -15,7 +15,8 @@ img {
 
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
-.blogs, .blogList, .collapsible {
+.blogs, .blogList, .collapsible, .homePage div,
+.tradewayLink {
 	margin: 2em auto;
 	width: 50%;
 }
@@ -62,7 +63,7 @@ span.code {
 	background-color: #fff4f9;
 }
 
-#blogs p.bookreviewsubheading {
+#blogs p.bookreviewsubheading, .homePage div {
 	text-align: center;
 }
 
@@ -143,7 +144,7 @@ span.code {
 }
 
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+.collapsible, .tradewayLink {
   background-color: #cff;
   color: #444;
   cursor: pointer;
@@ -169,5 +170,20 @@ span.code {
   display: none;
   overflow: hidden;
   background-color: #f1f9f9;
+}
+
+.homePage div {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.homePage .intro {
+	text-align: center;
+	width: 30%;
+	font-size: 1.5em;
+}
+
+.tradewayLink {
+	display: block;
 }
 

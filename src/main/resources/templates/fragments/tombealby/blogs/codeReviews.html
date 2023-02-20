@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Code Reviews, My Dos and Don'ts</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+</head>   
+   <body class="blogs">
+   
+   <div  id="codeReviews" th:fragment="codeReviews">
+      <h2>Code Reviews, My Dos and Don'ts</h2>
+      
+      <p class="summary">The ubiquitous code review. The process of a peer reviewing another developer's
+      work, before it is submitted to test. The code review has become the de facto industry method for 
+      ensuring code quality. However, anyone who has been in the industry for any amount of time, 
+      knows what a subjective process the code review is. The review comments on the same piece of work 
+      by two different reviewers are likely to be vastly different, chalk and cheese. There is the 'hard' 
+      reviewer, who demands a re-write of virtually every line of code. There is the 'soft' reviewer, who 
+      lets the reviewee get away with the earth. So how do we find a balance? What makes a good code review?</p>
+
+      <h3>Aims Of The Code Review</h3>
+      <p class="summary">We need to be clear about what we want out of a code review. For me, a code review 
+      has several purposes. Yes, ensuring a certain minimum code quality is important. However a review can
+      also play an important role in preventing bugs.</p>
+      
+      <h3>Bug Hunting</h3>
+      <p class="summary"> The first thing a reviewer must do on starting a review is to understand the requirements. The
+      changes must be reviewed with the requirements at the front of the reviewer's mind. Do the changes under review meet
+      the requirements?</p>
+
+      <p class="summary">The reviewer should be hunting for two types of bug. There is the 'quick win' that is spotted while eye balling the code. 
+      Spotting quick wins saves the to and fro of building, deploying to test, QA testing, and back to development. That's a huge 
+      saving.</p> 
+
+      <p class="summary">The second type of bug is more subtle. This is a bug that is deduced by a logical analysis of the code. This is 
+      particularly relevant to changes involving SQL. Analysis of the SQL can identify particular data scenarios that will cause 
+      the logic to fail. These types of bugs can be hard for the QAs to find. These bugs can leak into production. Ideally the 
+      reviewer will set up data in their test environment and attempt to reproduce the bug. If the bug is genuine then the reviewer 
+      must add detailed steps as to how to reproduce the bug in their review comments. </p>
+
+      <h3>Coding Standards</h3>
+      <p class="summary">Code reviews are used to maintain coding standards. Reviewers ask for changes to be made
+      to code that needs improvement. Of course, this is fine. The code needs to be improved and the reviewee needs to learn 
+      how to write better code. But I would qualify that by saying the requests must be 'within reason'. I have seen reviews 
+      which demand a virtual re-write. Very occasionally this might be justified. However requests for large changes can be 
+      detrimental. It is important to remember that the person who made the changes is human. They have put their time, effort 
+      and creativity into creating a particular solution. It will inevitably be de-motivating if they feel like that effort is 
+      not being used. So I would say 'yes', by all means ask for changes, but only where necessary. If at all possible, I try to 
+      accept the change that is in front of me. </p>
+      <p class="summary">If I do want changes I try to be as helpful as possible to the reviewee. If time permits, I will write a
+      working piece of code, and explain why I think it might be an improvement. It is important that the reviewer and reviewee
+      work together as a team. It is as much the responsibility of the reviewer to get the code to pass code review, as it is
+      of the reviewee. </p>
+	  
+ 	  <h3>How Long Should A Code Review Take?</h3>
+      <p class="summary">Uncle Bob (Martin) suggests that, if the work has not been developed using pair programming, then it is 
+      reasonable for the reviewer to spend up to the time that was taken by the reviewee to make the code changes, on their review. 
+      I would say, in an ideal world 'yes'. However I doubt whether many managers would accept that. As a rule of thumb, I would 
+      suggest that spending a third to half of the time that the reviewee took, on the review is reasonable and realistic. Any review 
+      that hasn't taken this time has probably not been thorough enough.</p>
+      
+	  <h3>Don't Forget The Tests</h3>
+      <p class="summary">I have heard developers say that they don't bother checking the tests when they do a review. Please no! The
+      quality of the tests is just as important as that of the implementation code. </p>
+ 
+ 	  <h3>Don't Forget The Good</h3>
+      <p class="summary">It is important to find good, as well as bad, in the changes that we are reviewing. When we see good, we should
+      write why it is good in a comment in the review notes. A review that consists of purely requests for changes, with no postive feedback,
+      is bad for motivation. </p>
+           
+      <p class="authoredBy">By: Tom Bealby - 4 February 2023</p>
+
+      </div>
+   </body>
+</html>

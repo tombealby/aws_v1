@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Tom Bealby CV</title>
+    <title>Tom Bealby Blogs</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Tom Bealby Blogs">
+  	<meta name="author" content="Tom Bealby">
     <link media="all" rel="stylesheet" type="text/css" href="/css/tom.css" />
 </head>
 <body>
@@ -34,6 +36,12 @@
 
 <div class="content">
   <p><div th:replace="fragments/tombealby/blogs/howTheWebsiteWasBuilt :: howTheWebsiteWasBuilt"></div></p>
+</div>
+
+<button type="button" class="collapsible"><strong>Click here</strong> To read blog: Code Reviews, My Dos and Don'ts</button>
+
+<div class="content">
+  <p><div th:replace="fragments/tombealby/blogs/codeReviews :: codeReviews"></div></p>
 </div>
 
 </div>
