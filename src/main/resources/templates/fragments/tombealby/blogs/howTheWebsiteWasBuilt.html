@@ -8,17 +8,17 @@
    <body class="blogs">
    
    <div  id="howTheWebsiteWasBuilt" th:fragment="howTheWebsiteWasBuilt">
-      <h2>Why And How This Website Was Built</h2>
+      <h2>Why And How This Web Site Was Built</h2>
       
       <h4>Quick warning - if you are not a techie then you might want to skip this blog!</h4>
 
-	  <h3>Why The Website Was Built</h3>
+	  <h3>Why The Web Site Was Built</h3>
       <p class="summary">This application started off as a simple demonstration application that ran on Amazon Web Services (AWS).
       The main goal of the work was for me to learn AWS techniques and methods. After making the initial demonstration application and 
       deploying on AWS, I found that I was enjoying it too much, and that I wanted to build something a bit more meaningful. The
       demonstration application subsequently evolved in an application that distributes CVs and blogs.</p>
 
-      <h3>How This Website Was Built</h3>
+      <h3>How This Web Site Was Built</h3>
       
       <h4>Creating the Application Server</h4>
       <p class="summary">An AWS EC2 t2.micro free tier linux instance type was created to host the application. The
@@ -49,7 +49,7 @@
       have been created, I copied the four record values of type NS, and set those values as custom nameservers for the domain name in the 
       Domain Name provider's console.</p>
       
-      <h5>Making the Website searchable in Google</h5>
+      <h5>Making the Web Site searchable in Google</h5>
       <p class="summary">A sitemap.xml file was made available in the root application directory. Then I pinged Google
       notification of the availability of the file by making the following request in a browser -<br>
       <span class="code">GET https://www.google.com/ping?sitemap=http://www.tradewaysoftsys.co.uk/sitemap.xml</span></p>
