@@ -12,15 +12,12 @@
 <h2>Book Reviews</h2>
 
 <p class="summary">I have read many technical books over the years. This page lists books that I recommend.
-Many of the books cover the basics of particular aspects of software development. For example I have included
-the books from which I learnt the core principles of Java, SQL, Javascript, regular expressions and other
-concepts. This is because I believe that having a thorough understanding of the fundamentals is crucial in writing
-professional standard software. If you understand the basics, then Google is often sufficient to solve harder
-problems. However, without a thorough understanding the basic concepts, there is the danger that we build
-on sand, ending up 'programming by coincidence' [see the listed book below 'The Pragmatic Programmer' for
-programming by coincidence].</p>
-
-<p class="summary">The books have been listed in rough chronological order in terms of when I read them. </p>
+Several of the books cover the basics of particular aspects of software development. For example I have included
+the books from which I learnt the core principles of Java, SQL and Javascript when beginning my development career.
+This is because I believe that having a thorough understanding of the fundamentals is crucial in writing professional
+standard software. If you understand the basics, then Google is often sufficient to solve harder problems. However,
+without a thorough understanding the basic concepts, there is the danger that we build on sand, ending up 'programming
+by coincidence' [see the listed book below 'The Pragmatic Programmer' for programming by coincidence].</p>
 
 <div class="imagecontainer">
     <img src="/images/books_stacked.jpg" alt="stack of books">
@@ -133,9 +130,16 @@ and more enjoyable. If you haven't already read this book, it might be worth giv
 <p>
 <ul class="bookreviews">
 <li>Cloud Native Patterns by Cornelia Davis</li>
-<p>A very well written book explaining modern techniques for deploying applications on
-the cloud. Includes code examples which were fun to try and consolidated my understanding
-of the topics under discussion. Ms Davis is a great teacher.</p>
+<p>There are many potential benefits from deploying applications to the cloud. Scalability, fault tolerance
+and cost savings, to name a few. However deploying to the cloud also brings complications. A key theme through
+out this book is the need to build systems that can cope with uncertainty. Servers can do down, networks can drop,
+demand can spiral, but our systems need to cope.</p>
+<p>The book gives practices and patterns that can be used to cope with this uncertainty. A good example is 'snowflakes'.
+By 'snowflakes' we mean issues caused by inconsistency across environments - the 'it works on my machine' problem.
+Automation in general, and containers in particular, have an important role to play in mitigating snowflakes.</p>
+<p>The book explains how applications can be written to facilitate running on the cloud. Topics discussed include
+stateless applications, configuration management, event driven computing, retries and circuit breakers. Running
+the code samples given in the book helped consolidate my understanding. This is a very good book.</p>
 <li>Refactoring SQL Applications by L'Hermite and Faroult</li>
 <p>This book was a huge help when I was placed in a team tasked to improve the performance of
 a decent sized application which used an Oracle database. It explained many new aspects of approaching the
