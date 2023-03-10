@@ -41,7 +41,7 @@ understanding.</p>
 <p>This book teaches the fundamentals of SQL extremely well. It starts at beginner level by explaining the
 SELECT, INSERT, UPDATE and DELETE statements. It then gradually introduces more advanced concepts by
 building on what has been taught before. We soon progress to JOIN and subqueries, followed by database
-design and normalisation. Later the book covers views, stored procedures, functions, triggers and
+design and normalization. Later the book covers views, stored procedures, functions, triggers and
 transactions. Readers are encouraged to get their hands dirty, by playing with the SQL code examples given,
 on their own database. I found this teaching style very beneficial.</p>
 <p>For developers who are working with an Oracle database, the book 'Mastering Oracle SQL' by Mishra
@@ -141,9 +141,18 @@ Automation in general, and containers in particular, have an important role to p
 stateless applications, configuration management, event driven computing, retries and circuit breakers. Running
 the code samples given in the book helped consolidate my understanding. This is a very good book.</p>
 <li>Refactoring SQL Applications by L'Hermite and Faroult</li>
-<p>This book was a huge help when I was placed in a team tasked to improve the performance of
-a decent sized application which used an Oracle database. It explained many new aspects of approaching the
-task of improving performance. These aspects would never have occurred to me if I hadn't read the book.</p>
+<p>This book is full of practical advice on how to improve the performance of applications that use relational databases.
+Two main strategies to improve performance are proposed. These strategies are statement refactoring and task
+refactoring.</p>
+<p>Statement refactoring is the traditional approach to fixing performance issues. Measure how long the SQL statements
+take to execute. Refactor the slow statements to make them run faster. A technique is given for breaking down a
+complex statement into smaller parts. Those smaller parts can then be reassembled in a new way that gives better
+performance. Many other innovative ideas are given.</p>
+<p>Task refactoring is often neglected or ignored by teams seeking performance improvements. However this can be a
+big mistake. Task refactoring involves analysing the code paths executed by the application to provide its business
+behaviour. Can these paths be refactored in a way that improves performance? This will likely involve changes that
+reduce the number of database calls made by the application. Again lots of ideas are given. What I have mentioned
+in this review is just the tip of the iceberg.</p>
 <li>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann</li>
 <p>Not an easy book to read, but extremely informative giving a deep understanding of modern
 software systems. The chapter that details the issues that can arise with concurrent threads
