@@ -154,9 +154,20 @@ behaviour. Can these paths be refactored in a way that improves performance? Thi
 reduce the number of database calls made by the application. Again lots of ideas are given. What I have mentioned
 in this review is just the tip of the iceberg.</p>
 <li>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann</li>
-<p>Not an easy book to read, but extremely informative giving a deep understanding of modern
-software systems. The chapter that details the issues that can arise with concurrent threads
-accessing a database has helped me fix some tricky bugs. One of my favourite books.</p>
+<p>As Developers, it is easy for us to use data storage tools with our applications, without understanding the
+internal workings of those tools. For example, our application might store its data in a database, but we probably
+don't understand how the data is persisted on disk, or replicated across nodes. This book explains those internal
+workings. It shows how those workings constrain the capability of the tool. The constraints become important when
+the system is put under stress. Stress might be caused by sheer volume of data, mechanical failure (eg disk failure
+or network drop), or even malicious intent.</p>
+<p>The book explains how, by careful choice of data storage tool and tool setup, we can build a system that most
+closely provides our data requirements. For example we learn how partitioning data across multiple nodes can address
+performance issues caused by large data volumes. We learn how transactions can be used to mitigate data integrity
+issues caused by concurrency. We learn how database isolations levels effect performance and data integrity. The
+capabilities of a traditional messaging system are compared to those of a log based messaging system like Kafka.</p>
+<p>Architects will need to understand the material in this book so that they can make informed decisions when
+designing a system. Developers will need to understand the material in order to understand, and then resolve, data
+issues that arise when the system is running.</p>
 </ul>
 </p>
 
