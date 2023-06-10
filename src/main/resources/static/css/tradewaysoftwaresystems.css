@@ -160,6 +160,7 @@ span.code {
   cursor: pointer;
   padding: 1em;
   border: ridge;
+  border-radius: 20em;
   outline: none;
   font-size: 1.2em;
   margin-top: 1.5em;
