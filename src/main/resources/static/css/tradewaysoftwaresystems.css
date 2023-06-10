@@ -34,7 +34,8 @@ img {
 	margin-bottom: 1em;
 }
 
-#halifaxPlaneContainer img, #juniorDeveloper img {
+#halifaxPlaneContainer img, #juniorDeveloper img,
+.homePage img {
 	width: 50%;
 }
 
@@ -191,7 +192,11 @@ span.code {
 .homePage .intro {
 	text-align: center;
 	width: 30%;
+	height: 8em;
 	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	background: url("/images/pexels-pixabay-158827.jpg") no-repeat center bottom/cover;
 }
 
 .tradewayLink {
