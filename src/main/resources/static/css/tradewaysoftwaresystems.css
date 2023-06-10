@@ -38,6 +38,10 @@ img {
 	width: 50%;
 }
 
+#bookreviews img {
+	width: 70%;
+}
+
 #blogs li, .blogs li {
 	margin-top: 1em;
 }
@@ -105,9 +109,15 @@ span.code {
 	}
 }
 
-#blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy {
+#blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy,
+#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements {
 	text-align: center;
 	margin: auto;
+}
+
+#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements {
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .tab {
