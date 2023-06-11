@@ -2,6 +2,7 @@
 
 body {
 	background-color: #ceebe8;
+	color: #043542;
 }
 
 p, h1, h2, h3, h4, h5, .bookreviews li, .qualifications li, .motivation li {
@@ -190,10 +191,12 @@ span.code {
 }
 
 .homePage .intro {
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
 	width: 80%;
-	height: 16em;
-	font-size: 1.5em;
+	height: 6em;
+	font-size: 3em;
 	font-weight: bold;
 	display: block;
 	background: url("/images/pexels-pixabay-158827.jpg") no-repeat center bottom/cover;
