@@ -35,12 +35,11 @@ img {
 	margin-bottom: 1em;
 }
 
-#halifaxPlaneContainer img, #juniorDeveloper img,
-.homePage img {
+#halifaxPlaneContainer img, .homePage img {
 	width: 50%;
 }
 
-#bookreviews img, #seniorDeveloper img {
+#bookreviews img, #seniorDeveloper img, #juniorDeveloper img {
 	width: 70%;
 }
 
