@@ -129,7 +129,7 @@ span.code {
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: #76acad;
+  background-color: #d0f0f6;
   float: left;
   border: none;
   outline: none;
@@ -143,8 +143,8 @@ span.code {
 }
 
 /* Create an active/current tablink class */
-.tab button.active, .collapsible:hover {
-  background-color: #4b6c6e;
+.tab button.active, .collapsible:hover, .tradewayLink:hover {
+  background-color: #76acad;
 }
 
 .tabcontent {
