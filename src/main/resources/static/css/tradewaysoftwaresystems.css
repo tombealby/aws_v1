@@ -5,7 +5,7 @@ body, div.tab {
 	color: #043542;
 }
 
-p, h1, h2, h3, h4, h5, .bookreviews li, .qualifications li, .motivation li {
+p, h1, h2, h3, h4, h5, .bookreviews li {
 	text-align: center;
 }
 
@@ -55,7 +55,7 @@ img {
 	display: grid;
 }
 
-ul.motivation, ul.qualifications, ul.bookreviews, .motivation ul {
+ul.bookreviews {
     text-align: center;
     list-style-position: inside;
 }
@@ -199,5 +199,15 @@ span.code {
 
 .tradewayLink {
 	display: block;
+}
+
+#summary li, #motivation li, #qualifications li , #employments li{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.summaryList {
+	width: 80%;
+	margin: 2em auto;
 }
 
