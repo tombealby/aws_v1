@@ -5,7 +5,7 @@ body, div.tab {
 	color: #043542;
 }
 
-p, h1, h2, h3, h4, h5, .bookreviews li {
+p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading {
 	text-align: center;
 }
 
@@ -41,6 +41,10 @@ img {
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img {
 	width: 70%;
+}
+
+#motivation img, #qualifications img {
+	width: 80%;
 }
 
 #blogs li, .blogs li {
@@ -96,7 +100,7 @@ span.code {
 	color: initial;
 }
 
-#blogs p, .blogs p, .blogsHome p {
+#blogs p, .blogs p, .blogsHome p, #bookreviews p {
 	text-align: justify;
 }
 
