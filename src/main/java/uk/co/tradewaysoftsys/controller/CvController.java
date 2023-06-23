@@ -3,7 +3,6 @@ package uk.co.tradewaysoftsys.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CvController {
 	
 	@GetMapping("/tombealby/cv")
-	public String showCv(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
+	public String showCv(Model model) {
 		return "fragments/tombealby/cv/cv";
 	}
 

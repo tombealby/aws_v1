@@ -4,12 +4,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+/**
+ *
+ *
+ */
 @Controller
-public class TBController {
+public class BookReviewsController {
 
-	@GetMapping("/tombealby")
-	public String showTomBealbyHome(Model model) {
-		return "fragments/tombealby/home";
+	@GetMapping("/tombealby/bookReviews")
+	public String showBookReviews(Model model) {
+		return "fragments/tombealby/bookReviews/bookReviewsHome";
 	}
 
 }

@@ -51,7 +51,7 @@ img {
 	margin-top: 1em;
 }
 
-.blogsHome #blogs {
+.blogsHome #blogs, #bookreviews {
 	display: block;
 }
 
