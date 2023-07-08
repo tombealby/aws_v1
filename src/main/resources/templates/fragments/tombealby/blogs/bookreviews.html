@@ -3,13 +3,12 @@
 <head> 
     <title>Tom Bealby CV</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link media="all" rel="stylesheet" type="text/css" href="/css/tom.css" />
 </head>
 <body>
 
 <div  id="bookreviews" class="tabcontent" th:fragment="bookreviews">
 
-<h2>Book Reviews</h2>
+<p class="mainHeading">Book Reviews</p>
 
 <p class="summary">I have read many technical books over the years. This page lists books that I recommend.
 Several of the books cover the basics of particular aspects of software development. For example I have included
@@ -215,6 +214,8 @@ an application is given, as well as approaches to decomposing databases into sma
 <div class="imagecontainer">
     <img src="/images/books_3.jpg" alt="my programming books">
 </div>
+
+<p class="photoAcknowledgements">Photo Acknowledgements: pexels.com</p>
 
 <div th:if="${#bools.isTrue(isViewBlogsHome)}">
 <p class="authoredBy">By: Tom Bealby - January 2023</p>

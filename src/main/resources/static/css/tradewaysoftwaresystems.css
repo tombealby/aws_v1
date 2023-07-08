@@ -5,7 +5,8 @@ body, div.tab {
 	color: #043542;
 }
 
-p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading {
+p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
+#blogs #blogsPageHeading {
 	text-align: center;
 }
 
@@ -17,7 +18,7 @@ img {
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
 .blogs, .blogList, .collapsible, .homePage div,
-.tradewayLink {
+.tradewayLink, .mainHeading {
 	margin: 2em auto;
 	width: 50%;
 }
@@ -76,7 +77,7 @@ span.code {
 	text-align: center;
 }
 
-.intro {
+.intro, .mainHeading {
 	background-color: #d0f0f6;
 	padding: 2em;
 	border-style: ridge;
@@ -88,16 +89,6 @@ span.code {
 
 #blogs button {
 	text-decoration: underline;
-}
-
-#blogs h2, #blogs h3, #blogs h4, #blogs h5, .blogs h2, .blogs h3,
-.blogsHome h2, .blogsHome h3, .blogsHome h4, .blogsHome h5 {
-	color: #28abe2;
-}
-
-#blogs #blogsPageHeading, .blogsHome #blogsPageHeading, .blogsHome .watermark,
-.blogsHome .email {
-	color: initial;
 }
 
 #blogs p, .blogs p, .blogsHome p, #bookreviews p {
@@ -115,7 +106,8 @@ span.code {
 }
 
 #blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy,
-#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements {
+#blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements,
+#bookreviews p.photoAcknowledgements {
 	text-align: center;
 	margin: auto;
 }
@@ -189,7 +181,7 @@ span.code {
 	margin-bottom: 3em;
 }
 
-.homePage .intro {
+.mainHeading {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	text-align: center;
@@ -198,7 +190,40 @@ span.code {
 	font-size: 3em;
 	font-weight: bold;
 	display: block;
+}
+
+.homePage .mainHeading {
 	background: url("/images/pexels-pixabay-158827.jpg") no-repeat center bottom/cover;
+}
+
+#summary .mainHeading {
+	background: url("/images/pexels-anton-atanasov-221016.jpg") no-repeat center;
+}
+
+#motivation .mainHeading {
+	background: url("/images/pexels-pixabay-51947.jpg") no-repeat center 30%;
+}
+
+#qualifications .mainHeading {
+	background: url("/images/pexels-rey-rey-5136449.jpg") no-repeat;
+	background-size: 170%;
+}
+
+#employments .mainHeading {
+	background: url("/images/pexels-despierres-cecile-299113.jpg") no-repeat;
+	background-size: 170%;
+}
+
+#blogs .mainHeading {
+	background: url("/images/pexels-k-zoltan-544554.jpg") no-repeat bottom;
+	background-size: 170%;
+}
+
+#bookreviews .mainHeading {
+	background: url("/images/pexels-pixabay-461284.jpg") no-repeat;
+	background-size: cover;
+	background-position-y: 35%;
+	text-align: center;
 }
 
 .tradewayLink {

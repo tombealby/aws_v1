@@ -1,0 +1,13 @@
+/* The application's default css rules are contained in the file tradewaysoftwaresystems.css. 
+This style sheet adds rules that override those default rules. The overrides will apply to
+devices that have medium screens, such as small laptops and ipads  */
+
+
+#qualifications .mainHeading {
+	background-size: 130%;
+}
+
+
+#employments .mainHeading {
+	background-size: 130%;
+}

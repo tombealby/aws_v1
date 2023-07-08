@@ -46,7 +46,7 @@ public class BlogControllerTest {
 	public void call_blogsUrl_returnsResponseBodyWithBlogs() throws Exception {
 		final MvcResult result = mockMvc.perform(get("/tombealby/blogs")).andReturn();
         final String content = result.getResponse().getContentAsString();
-        assertTrue(content.contains("To read a blog written in 2018 while working at Centiq: My Job as a Problem Solver"));
+        assertTrue(content.contains("To read blog: My Job as a Problem Solver"));
         assertTrue(content.contains("To read blog: Tom Sharpe, A Family Tragedy"));
 	}
 
