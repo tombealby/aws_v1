@@ -16,7 +16,7 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 }
 
 
-#employments .mainHeading, #qualifications .mainHeading {
+#employments .mainHeading {
 	background-size: 100%;
 }
 
@@ -24,6 +24,8 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 	background-size: 110%;
 }
 
+/*
 #qualifications .mainHeading {
 	background-size: 130%;
 }
+*/
