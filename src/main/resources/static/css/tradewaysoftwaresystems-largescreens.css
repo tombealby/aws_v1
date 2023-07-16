@@ -2,10 +2,28 @@
 This style sheet adds rules that override those default rules. The overrides will apply to
 devices that have large screens, such as large laptops and monitors  */
 
+.intro, .summary, .motivation, .employments,
+.qualifications, .bookreviews, .imagecontainer,
+.blogs, .blogList, .collapsible, .homePage div,
+.tradewayLink, .mainHeading {
+	width: 50%;
+}
+
+/*
+what is best here? I have set at 80% for now, but I am not completely convinced. */
+.bookreviews, #bookreviews .summary, #blogs .summary {
+	width: 80%;
+}
+
+
 #employments .mainHeading, #qualifications .mainHeading {
 	background-size: 100%;
 }
 
 #blogs .mainHeading {
 	background-size: 110%;
+}
+
+#qualifications .mainHeading {
+	background-size: 130%;
 }

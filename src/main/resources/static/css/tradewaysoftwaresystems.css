@@ -20,7 +20,7 @@ img {
 .blogs, .blogList, .collapsible, .homePage div,
 .tradewayLink, .mainHeading {
 	margin: 2em auto;
-	width: 50%;
+	width: 100%;
 }
 
 .blogs .blogList {

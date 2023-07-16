@@ -3,6 +3,13 @@ This style sheet adds rules that override those default rules. The overrides wil
 devices that have medium screens, such as small laptops and ipads  */
 
 
+.intro, .summary, .motivation, .employments,
+.qualifications, .bookreviews, .imagecontainer,
+.blogs, .blogList, .collapsible, .homePage div,
+.tradewayLink, .mainHeading {
+	width: 80%;
+}
+
 #qualifications .mainHeading {
 	background-size: 130%;
 }
