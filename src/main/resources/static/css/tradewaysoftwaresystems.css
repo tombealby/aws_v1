@@ -41,7 +41,7 @@ img {
 }
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img {
-	width: 70%;
+	width: 100%;
 }
 
 #motivation img, #qualifications img {

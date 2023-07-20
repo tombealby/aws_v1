@@ -19,3 +19,7 @@ devices that have medium screens, such as small laptops and ipads  */
 #employments .mainHeading, #blogs .mainHeading {
 	background-size: 140%;
 }
+
+#bookreviews img, #seniorDeveloper img, #juniorDeveloper img {
+	width: 70%;
+}
