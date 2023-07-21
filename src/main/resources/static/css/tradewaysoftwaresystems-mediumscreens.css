@@ -10,16 +10,14 @@ devices that have medium screens, such as small laptops and ipads  */
 	width: 80%;
 }
 
-#qualifications .mainHeading {
-	background-size: 150%;
-	background-position-y: 0%;
-}
-
-
 #employments .mainHeading, #blogs .mainHeading {
 	background-size: 140%;
 }
 
 #seniorDeveloper img, #juniorDeveloper img {
 	width: 70%;
+}
+
+#qualifications .mainHeading {
+	background-size: 145%;
 }

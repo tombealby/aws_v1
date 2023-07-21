@@ -205,8 +205,10 @@ span.code {
 }
 
 #qualifications .mainHeading {
-	background: url("/images/pexels-rey-rey-5136449.jpg") no-repeat;
+	background: url("/images/pexels-matthias-groeneveld-2695394.jpg") no-repeat;
 	background-size: 170%;
+	background-position-x: 100%;
+	background-position-y: 50%;
 }
 
 #employments .mainHeading {

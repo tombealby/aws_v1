@@ -24,8 +24,7 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 	background-size: 110%;
 }
 
-/*
 #qualifications .mainHeading {
 	background-size: 130%;
+	background-position-x: 80%;
 }
-*/
