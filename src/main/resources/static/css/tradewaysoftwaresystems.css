@@ -230,6 +230,7 @@ span.code {
 
 .tradewayLink {
 	display: block;
+	text-align: center;
 }
 
 #summary li, #motivation li, #qualifications li , #employments li{
@@ -240,5 +241,9 @@ span.code {
 div.summaryList {
 	width: 80%;
 	margin: 2em auto;
+}
+
+.backToHomePageLink {
+	width: 20%;
 }
 
