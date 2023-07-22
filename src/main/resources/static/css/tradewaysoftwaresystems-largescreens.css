@@ -26,4 +26,5 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 
 #motivation .mainHeading {
 	background-size: 140%;
+	background-position-x: 100%;
 }

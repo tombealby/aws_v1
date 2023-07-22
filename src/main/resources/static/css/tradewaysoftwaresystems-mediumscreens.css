@@ -20,4 +20,5 @@ devices that have medium screens, such as small laptops and ipads  */
 
 #motivation .mainHeading {
 	background-size: 145%;
+	background-position-x: 85%;
 }
