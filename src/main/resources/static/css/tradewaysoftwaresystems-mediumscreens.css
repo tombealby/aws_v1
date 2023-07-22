@@ -10,6 +10,10 @@ devices that have medium screens, such as small laptops and ipads  */
 	width: 80%;
 }
 
+.homePage .tradewayLink {
+	width: 50%;
+}
+
 #employments .mainHeading, #blogs .mainHeading {
 	background-size: 140%;
 }
