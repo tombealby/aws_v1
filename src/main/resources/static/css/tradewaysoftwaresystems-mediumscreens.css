@@ -25,4 +25,5 @@ devices that have medium screens, such as small laptops and ipads  */
 
 .backToHomePageLink {
 	width: 20%;
+	margin-bottom: 0.5em;
 }

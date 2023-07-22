@@ -182,7 +182,7 @@ span.code {
 }
 
 .mainHeading {
-	margin-top: 1em;
+	margin-top: 0.5em;
 	margin-bottom: 1em;
 	text-align: center;
 	width: 80%;
@@ -245,5 +245,6 @@ div.summaryList {
 
 .backToHomePageLink {
 	width: 20%;
+	margin-bottom: 0.5em;
 }
 
