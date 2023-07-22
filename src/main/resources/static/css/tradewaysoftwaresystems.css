@@ -27,7 +27,7 @@ img {
 	width: 65%;
 }
 
-.blogs .blogList {
+.blogs .blogList, #codeReviews img {
 	width: 70%;
 }
 
