@@ -4,8 +4,8 @@ devices that have large screens, such as large laptops and monitors  */
 
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
-.blogs, .blogList, .collapsible, .homePage div,
-.tradewayLink, .mainHeading {
+.blogs, .blogList, .homePage div, .tradewayLink,
+.mainHeading {
 	width: 50%;
 }
 
@@ -27,6 +27,10 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 #motivation .mainHeading {
 	background-size: 140%;
 	background-position-x: 100%;
+}
+
+.collapsible {
+	width: 35%;
 }
 
 .backToHomePageLink {

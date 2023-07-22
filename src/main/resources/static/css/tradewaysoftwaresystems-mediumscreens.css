@@ -5,8 +5,8 @@ devices that have medium screens, such as small laptops and ipads  */
 
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
-.blogs, .blogList, .collapsible, .homePage div,
-.tradewayLink, .mainHeading {
+.blogs, .blogList, .homePage div, .tradewayLink,
+.mainHeading {
 	width: 80%;
 }
 
@@ -21,6 +21,10 @@ devices that have medium screens, such as small laptops and ipads  */
 #motivation .mainHeading {
 	background-size: 145%;
 	background-position-x: 85%;
+}
+
+.collapsible {
+	width: 55%;
 }
 
 .backToHomePageLink {

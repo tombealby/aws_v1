@@ -17,8 +17,8 @@ img {
 
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
-.blogs, .blogList, .collapsible, .homePage div,
-.tradewayLink, .mainHeading {
+.blogs, .blogList, .homePage div, .tradewayLink,
+.mainHeading {
 	margin: 2em auto;
 	width: 100%;
 }
@@ -57,7 +57,9 @@ img {
 }
 
 .collapsible {
+	margin: 2em auto;
 	display: grid;
+	width: 80%;
 }
 
 ul.bookreviews {
