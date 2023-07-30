@@ -35,3 +35,7 @@ devices that have medium screens, such as small laptops and ipads  */
 	width: 25%;
 	margin-bottom: 0.5em;
 }
+
+caption {
+	font-size: 1.4em;
+}
