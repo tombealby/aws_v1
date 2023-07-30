@@ -5,7 +5,7 @@ devices that have large screens, such as large laptops and monitors  */
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
 .blogs, .blogList, .homePage div, .tradewayLink,
-.mainHeading {
+.mainHeading, .tablecontainer {
 	width: 50%;
 }
 

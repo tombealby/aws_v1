@@ -18,7 +18,7 @@ img {
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
 .blogs, .blogList, .homePage div, .tradewayLink,
-.mainHeading {
+.mainHeading, .tablecontainer {
 	margin: 2em auto;
 	width: 100%;
 }
@@ -254,3 +254,29 @@ div.summaryList {
 	margin-bottom: 0.5em;
 }
 
+tr:nth-child(even) {
+  background-color: #76acad;
+}
+
+tr:nth-child(odd) {
+  background-color: #cff;
+}
+
+table, th, td {
+  border: 1px solid #76acad;
+  border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5em;
+}
+
+table {
+	min-width: 100%;
+	text-align: left;
+}
+
+caption {
+	margin: 1em auto;
+	font-size: large;
+}
