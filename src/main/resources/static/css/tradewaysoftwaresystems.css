@@ -278,5 +278,14 @@ table {
 
 caption {
 	margin: 1em auto;
-	font-size: large;
+	font-size: 1.4em;
+}
+
+#bookreviews .summary {
+	margin-bottom: 1em;
+}
+
+.tablecontainer {
+	margin-top: 0em;
+	margin-bottom: 3em;
 }
