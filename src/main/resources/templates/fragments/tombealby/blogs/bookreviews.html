@@ -30,12 +30,28 @@ by coincidence' [see the listed book below 'The Pragmatic Programmer' for progra
     <td>Robert Vieira</td>
   </tr>
   <tr>
+    <td><a href="#cleanCode">Clean Code</a></td>
+    <td>Robert Martin</td>
+  </tr>
+  <tr>
+    <td><a href="#cloudNativePatterns">Cloud Native Patterns</a></td>
+    <td>Cornelia Davis</td>
+  </tr>
+  <tr>
+    <td><a href="#designingDataIntensiveApplications">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</a></td>
+    <td>Martin Kleppmann</td>
+  </tr>
+  <tr>
     <td><a href="#foundationsOfSecurity">Foundations of Security: What every programmer needs to know</a></td>
     <td>Daswani, Kern and Kesavan</td>
   </tr>
   <tr>
     <td><a href="#headFirstDesignPatterns">Head First Design Patterns</a></td>
     <td>Eric Freeman et al</td>
+  </tr>
+  <tr>
+    <td><a href="#howToMakeFriendsAndInfluencePeople">How to Make Friends and Influence People</a></td>
+    <td>Dale Carnegie</td>
   </tr>
   <tr>
     <td><a href="#javascriptDefinitiveGuide">Javascript: The Definitive Guide</a></td>
@@ -46,8 +62,20 @@ by coincidence' [see the listed book below 'The Pragmatic Programmer' for progra
     <td>Jeffrey Friedl</td>
   </tr>
   <tr>
+    <td><a href="#refactoringImprovingTheDesignOfExistingCode">Refactoring: Improving the Design of Existing Code</a></td>
+    <td>Martin Fowler</td>
+  </tr>
+  <tr>
+    <td><a href="#refactoringSqlApplications">Refactoring SQL Applications</a></td>
+    <td>L'Hermite and Faroult</td>
+  </tr>
+  <tr>
     <td><a href="#scjp">SCJP Sun Certified Programmer for Java 6 Study Guide</a></td>
     <td>Kathy Sierra</td>
+  </tr>
+  <tr>
+    <td><a href="#softwareArchitectureTheHardParts">Software Architecture: The Hard Parts</a></td>
+    <td>Ford, Richards, Sadalage and Dehghani</td>
   </tr>
   <tr>
     <td><a href="#springInAction">Spring in Action</a></td>
@@ -56,6 +84,10 @@ by coincidence' [see the listed book below 'The Pragmatic Programmer' for progra
   <tr>
     <td><a href="#theDesignOfWebApis">The Design of Web APIs</a></td>
     <td>Arnaud Lauret</td>
+  </tr>
+  <tr>
+    <td><a href="#thePragmaticProgrammer">The Pragmatic Programmer</a></td>
+    <td>Andrew Hunt and David Thomas</td>
   </tr>
 </table>
 </div>
@@ -154,7 +186,7 @@ translating the goals into APIs, identifying inputs and outputs of the API, and 
 <p>There is a very good explanation of REST principles. There is also advice on building extensible APIs, providing
 backwards compatibility, API security, network efficiency, API versioning and documentation.</p>
 
-<li>Refactoring: Improving the Design of Existing Code by Martin Fowler.</li>
+<li id="refactoringImprovingTheDesignOfExistingCode">Refactoring: Improving the Design of Existing Code by Martin Fowler.</li>
 <p>Refactoring is the process of changing code to make it easier to understand, maintain and extend. The changes are
 made so that the behaviour of the code remains the same. It is important that the changes are made in a systematic manner. It
 is the use of the systematic manner that ensures that the changes are made quickly and accurately.</p>
@@ -169,7 +201,7 @@ revisited for a reminder of the good practices that it teaches. The book contain
 book in this review, 'Clean Code'. However this is such an important subject that I suggest it is worthwhile to read
 both books.</p>
 
-<li>Clean Code by Robert Martin.</li>
+<li id="cleanCode">Clean Code by Robert Martin.</li>
 <p>I am a fan of Uncle Bob. I like his YouTube talks and I like his books. This book gives excellent advice on producing
 and maintaining good quality code.</p>
 <p> Some of this advice is well known. I would expect most developers to use meaningful object names, understand the
@@ -178,13 +210,13 @@ which isn't so well known. For example I now appreciate the importance of having
 same level of abstraction. I now have a much better understanding of how to write clean tests.</p>
 <p>This book has made me reconsider how I write code.</p>
 
-<li>The Pragmatic Programmer by Andrew Hunt and David Thomas</li>
+<li id="thePragmaticProgrammer">The Pragmatic Programmer by Andrew Hunt and David Thomas</li>
 <p>One of the easier reads out of the books listed in this review. The book gives a reminder of some of the things
 we should all be doing as software developers. For example there is advice on building your knowledge portfolio,
 automating tasks, debugging strategies, testing and estimating. I especially like the sections on Rubber Ducking and
 Programming by Coincidence.</p>
 
-<li>How to Make Friends and Influence People by Dale Carnegie.</li>
+<li id="howToMakeFriendsAndInfluencePeople">How to Make Friends and Influence People by Dale Carnegie.</li>
 <p>What? Why I am including this book in a review of technical programming books? Well software development,
 like it or not, is a social activity. Not all the people we meet will be easy to work with. The ideas
 in this book will help us interact with our colleagues and make our general day to day lives easier
@@ -197,7 +229,7 @@ and more enjoyable. If you haven't already read this book, it might be worth giv
 <p>
 <ul class="bookreviews">
 
-<li>Cloud Native Patterns by Cornelia Davis</li>
+<li id="cloudNativePatterns">Cloud Native Patterns by Cornelia Davis</li>
 <p>There are many potential benefits from deploying applications to the cloud. Scalability, fault tolerance
 and cost savings, to name a few. However deploying to the cloud also brings complications. A key theme through
 out this book is the need to build systems that can cope with uncertainty. Servers can do down, networks can drop,
@@ -209,7 +241,7 @@ Automation in general, and containers in particular, have an important role to p
 stateless applications, configuration management, event driven computing, retries and circuit breakers. Running
 the code samples given in the book helped consolidate my understanding. This is a very good book.</p>
 
-<li>Refactoring SQL Applications by L'Hermite and Faroult</li>
+<li id="refactoringSqlApplications">Refactoring SQL Applications by L'Hermite and Faroult</li>
 <p>This book is full of practical advice on how to improve the performance of applications that use relational databases.
 Two main strategies to improve performance are proposed. These strategies are statement refactoring and task
 refactoring.</p>
@@ -223,7 +255,7 @@ behaviour. Can these paths be refactored in a way that improves performance? Thi
 reduce the number of database calls made by the application. Again lots of ideas are given. What I have mentioned
 in this review is just the tip of the iceberg.</p>
 
-<li>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann</li>
+<li id="designingDataIntensiveApplications">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann</li>
 <p>As Developers, it is easy for us to use data storage tools with our applications, without understanding the
 internal workings of those tools. For example, our application might store its data in a database, but we probably
 don't understand how the data is persisted on disk, or replicated across nodes. This book explains those internal
@@ -239,7 +271,7 @@ capabilities of a traditional messaging system are compared to those of a log ba
 designing a system. Developers will need to understand the material in order to understand, and then resolve, data
 issues that arise when the system is running.</p>
 
-<li>Software Architecture: The Hard Parts by Ford, Richards, Sadalage and Dehghani</li>
+<li id="softwareArchitectureTheHardParts">Software Architecture: The Hard Parts by Ford, Richards, Sadalage and Dehghani</li>
 <p>This book teaches an approach to architectural decision making based on trade-off analysis. For example is a synchronous
 or asynchronous communication style most appropriate for communication between two microservices? If performance and fault
 tolerance are a priority for the application, then an asynchronous communication style might be most appropriate. However, if
