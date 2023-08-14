@@ -10,12 +10,6 @@ devices that have large screens, such as large laptops and monitors  */
 }
 
 /*
-.homePage .tradewayLink {
-	width: 40%;
-}
-*/
-
-/*
 what is best here? I have set at 80% for now, but I am not completely convinced. */
 .bookreviews, #bookreviews .summary, #blogs .summary {
 	width: 80%;
@@ -42,4 +36,13 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 .backToHomePageLink {
 	width: 15%;
 	margin-bottom: 0.5em;
+	margin-left: 14%;
+}
+
+.headingContainer {
+	padding-right: 31%;
+}
+
+.tabcontent {
+	padding-top: 0.01em;
 }

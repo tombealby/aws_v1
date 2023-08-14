@@ -127,6 +127,7 @@ span.code {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  margin-bottom: 2em;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -289,3 +290,24 @@ caption {
 	margin-top: 0em;
 	margin-bottom: 3em;
 }
+
+.headingContainer h1, .headingContainer h2 {
+	font-size: 50%;
+}
+
+.blogsHome .headingContainer h1, .blogsHome .headingContainer h2 {
+	font-size: 200%;
+}
+
+.backToHomePageLink {
+	width: 35%;
+	margin: auto;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+
+#bookreviews, #summary, #motivation, #employments, #qualifications, #blogs {
+	clear: left;
+}
+
+
