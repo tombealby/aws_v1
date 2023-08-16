@@ -37,16 +37,16 @@ public class BookReviewsControllerTest {
 		.andExpect(content().string(containsString("<title>Tom Bealby Book Reviews</title>")));
 	}
 
-//	@Test
-//	public void call_bookReviewsUrl_returnsResponseBodyWithMainHeading() throws Exception {
-//		mockMvc.perform(get("/tombealby/bookReviews"))
-//		.andExpect(status().isOk())
-//		.andExpect(content().string(containsString(makeExpectedMainHeading())));
-//	}
+	@Test
+	public void call_bookReviewsUrl_returnsResponseBodyWithMainHeading() throws Exception {
+		mockMvc.perform(get("/tombealby/bookReviews"))
+		.andExpect(status().isOk())
+		.andExpect(content().string(containsString(makeExpectedMainHeading())));
+	}
 
 	private String makeExpectedMainHeading() {
 		return "<h1>Tom Bealby</h1>\n" + 
 				"\n" + 
-				"<h2 class=\"email\">email: tom.bealby67@gmail.com</h2>";
+				"<h2 class=\"email\">tom.bealby67@gmail.com</h2>";
 	}
 }

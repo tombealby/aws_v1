@@ -33,9 +33,8 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 	width: 35%;
 }
 
-.backToHomePageLink {
+#cv .backToHomePageLink, .backToHomePageLink {
 	width: 15%;
-	margin-bottom: 0.5em;
 	margin-left: 14%;
 }
 

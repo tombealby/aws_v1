@@ -11,7 +11,7 @@ devices that have medium screens, such as small laptops and ipads  */
 }
 
 .homePage .tradewayLink {
-	width: 40%;
+	width: 30%;
 }
 
 #employments .mainHeading, #blogs .mainHeading {
@@ -39,7 +39,7 @@ caption {
 	font-size: 200%;
 }
 
-.backToHomePageLink {
+#cv .backToHomePageLink, .backToHomePageLink {
 	width: 15%;
 	margin: unset;
 	margin-top: 0em;
@@ -51,7 +51,3 @@ caption {
 .headingContainer {
 	padding-right: 20%;
 }
-
-/*
-https://stackoverflow.com/questions/4213609/how-do-i-center-content-next-to-a-floated-element-and-relative-to-the-containing
-*/

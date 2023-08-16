@@ -24,7 +24,7 @@ img {
 }
 
 .homePage .tradewayLink {
-	width: 65%;
+	width: 40%;
 }
 
 .blogs .blogList, #codeReviews img {
@@ -63,7 +63,7 @@ img {
 .collapsible {
 	margin: 2em auto;
 	display: grid;
-	width: 80%;
+	width: 65%;
 }
 
 ul.bookreviews {
@@ -255,6 +255,10 @@ div.summaryList {
 	margin-bottom: 0.5em;
 }
 
+#cv .backToHomePageLink {
+	margin-bottom: 1.5em;
+}
+
 tr:nth-child(even) {
   background-color: #76acad;
 }
@@ -302,7 +306,7 @@ caption {
 .backToHomePageLink {
 	width: 35%;
 	margin: auto;
-	margin-top: 0em;
+	margin-top: 1.5em;
 	margin-bottom: 0.5em;
 }
 
@@ -320,4 +324,6 @@ caption {
 	margin-bottom: -0.1em;
 }
 
-
+.blogsHome .headingContainer h2.email {
+	font-size: 200%;
+}

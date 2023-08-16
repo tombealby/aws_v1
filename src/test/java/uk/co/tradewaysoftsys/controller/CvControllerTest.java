@@ -43,12 +43,12 @@ public class CvControllerTest {
 		.andExpect(content().string(containsString(makeExpectedTabs())));
 	}
 	
-//	@Test
-//	public void call_cvUrl_returnsResponseBodyWithMainHeading() throws Exception {
-//		mockMvc.perform(get("/tombealby/cv"))
-//		.andExpect(status().isOk())
-//		.andExpect(content().string(containsString(makeExpectedMainHeading())));
-//	}
+	@Test
+	public void call_cvUrl_returnsResponseBodyWithMainHeading() throws Exception {
+		mockMvc.perform(get("/tombealby/cv"))
+		.andExpect(status().isOk())
+		.andExpect(content().string(containsString(makeExpectedMainHeading())));
+	}
 
 	private String makeExpectedTabs() {
 		return "<div class=\"tab\">\n" + 
@@ -64,6 +64,6 @@ public class CvControllerTest {
 	private String makeExpectedMainHeading() {
 		return "<h1>Tom Bealby</h1>\n" + 
 				"\n" + 
-				"<h2>email: tom.bealby67@gmail.com</h2>";
+				"<h2>tom.bealby67@gmail.com</h2>";
 	}
 }
