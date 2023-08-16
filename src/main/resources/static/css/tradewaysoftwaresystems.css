@@ -27,12 +27,8 @@ img {
 	width: 40%;
 }
 
-.blogs .blogList, #codeReviews img {
+.blogs .blogList {
 	width: 70%;
-}
-
-#problemSolver img {
-	width: 100%;
 }
 
 #familyTragedy img {
@@ -44,7 +40,8 @@ img {
 	width: 50%;
 }
 
-#bookreviews img, #seniorDeveloper img, #juniorDeveloper img {
+#bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
+#problemSolver img {
 	width: 100%;
 }
 
