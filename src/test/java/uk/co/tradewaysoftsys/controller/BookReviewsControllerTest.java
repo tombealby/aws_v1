@@ -47,6 +47,6 @@ public class BookReviewsControllerTest {
 	private String makeExpectedMainHeading() {
 		return "<h1>Tom Bealby</h1>\n" + 
 				"\n" + 
-				"<h2 class=\"email\">tom.bealby67@gmail.com</h2>";
+				"<h2 class=\"email\">tom.bealby@outlook.com</h2>";
 	}
 }

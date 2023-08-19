@@ -9,7 +9,6 @@ public class BlogController {
 
 	@GetMapping("/tombealby/blogs")
 	public String showBlogsHomeTomBealby(Model model) {
-		model.addAttribute("isViewBlogsHome", true);
 		return "fragments/tombealby/blogs/blogsHome";
 	}
 
