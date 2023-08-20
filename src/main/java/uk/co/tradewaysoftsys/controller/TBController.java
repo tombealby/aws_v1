@@ -1,14 +1,13 @@
 package uk.co.tradewaysoftsys.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class TBController {
 
 	@GetMapping("/tombealby")
-	public String showBlogsHomeTomBealby(Model model) {
+	public String showTomBealbyHome() {
 		return "fragments/tombealby/home";
 	}
 

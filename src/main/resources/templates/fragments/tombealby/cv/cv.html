@@ -1,14 +1,19 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head> 
+    <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DWPXDV0RGN"></script>
+	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-DWPXDV0RGN'); </script>
     <title>Tom Bealby CV</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="Tom Bealby CV">
   	<meta name="author" content="Tom Bealby">
     <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+    <link media="screen and (min-device-width: 40em)" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems-mediumscreens.css" />
+    <link media="screen and (min-device-width: 90em)" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems-largescreens.css" />
     <script src="/js/cv.js"></script>
 </head>
-<body>
+<body id="cv">
 
 <!-- Tab links -->
 <div class="tab">
@@ -20,15 +25,21 @@
   <button class="tablinks" onclick="openTab(event, 'blogs')">Blogs</button>
 </div>
 
+<a class="tradewayLink backToHomePageLink" th:href="@{/tombealby}"><strong>Click here</strong><br>To return to: Home Page</a>
+
+<div class="headingContainer">
+
 <h1>Tom Bealby</h1>
 
-<h2>email: tom.bealby67@gmail.com</h2>
+<h2>tom.bealby@outlook.com</h2>
+
+</div>
 
 <div th:replace="fragments/tombealby/cv/summary :: summary"></div>
 <div th:replace="fragments/tombealby/cv/motivation :: motivation"></div>
 <div th:replace="fragments/tombealby/cv/employments :: employments"></div>
 <div th:replace="fragments/tombealby/cv/qualifications :: qualifications"></div>
-<div th:replace="fragments/tombealby/blogs/bookreviews :: bookreviews"></div>
+<div th:replace="fragments/tombealby/bookReviews/bookreviews :: bookreviews"></div>
 <div th:replace="fragments/tombealby/blogs/blogs :: blogs"></div>
 
 

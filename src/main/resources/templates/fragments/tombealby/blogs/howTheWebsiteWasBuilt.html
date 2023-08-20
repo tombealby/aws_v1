@@ -3,22 +3,25 @@
 <head> 
     <title>The Why and How this application was built</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
 </head>   
    <body class="blogs">
    
    <div  id="howTheWebsiteWasBuilt" th:fragment="howTheWebsiteWasBuilt">
-      <h2>The Why And How This Application Was Built</h2>
+      <h2>Why And How This Web Site Was Built</h2>
       
       <h4>Quick warning - if you are not a techie then you might want to skip this blog!</h4>
 
-	  <h3>Why The Application Was Built</h3>
+	  <h3>Why The Web Site Was Built</h3>
       <p class="summary">This application started off as a simple demonstration application that ran on Amazon Web Services (AWS).
       The main goal of the work was for me to learn AWS techniques and methods. After making the initial demonstration application and 
       deploying on AWS, I found that I was enjoying it too much, and that I wanted to build something a bit more meaningful. The
       demonstration application subsequently evolved in an application that distributes CVs and blogs.</p>
 
-      <h3>How This Application Was Built</h3>
+      <div class="imagecontainer">
+    	<img src="/images/aws_logo.png" alt="AWS Logo">
+	  </div>
+
+      <h3>How This Web Site Was Built</h3>
       
       <h4>Creating the Application Server</h4>
       <p class="summary">An AWS EC2 t2.micro free tier linux instance type was created to host the application. The
@@ -33,7 +36,7 @@
       The source code for the application can be found <a th:href="@{https://github.com/tombealby/aws_v1/tree/development}">here.</a></p>
    		
       <h4>Deploying the Application</h4>
-      <p class="summary">I developed the application on my local laptop. The changes are pushed to Git. To deploy I
+      <p class="summary">I develop the application on my laptop. The changes are pushed to Git. To deploy I
       use PuTTY to SSH onto the EC2 instance. I pull the latest source code from Git, build and run the project. When I first ran
       the application the application failed to start due to a permissions error on accessing port 80. Port 80 is a privileged port
       needing root user permission to access. Running the application as the root user was an unacceptable security risk. Therefore
@@ -49,7 +52,7 @@
       have been created, I copied the four record values of type NS, and set those values as custom nameservers for the domain name in the 
       Domain Name provider's console.</p>
       
-      <h5>Making the Website searchable in Google</h5>
+      <h5>Making the Web Site searchable in Google</h5>
       <p class="summary">A sitemap.xml file was made available in the root application directory. Then I pinged Google
       notification of the availability of the file by making the following request in a browser -<br>
       <span class="code">GET https://www.google.com/ping?sitemap=http://www.tradewaysoftsys.co.uk/sitemap.xml</span></p>

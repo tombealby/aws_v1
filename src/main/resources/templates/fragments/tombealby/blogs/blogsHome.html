@@ -4,12 +4,20 @@
     <title>Tom Bealby Blogs</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link media="all" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems.css" />
+    <link media="screen and (min-device-width: 40em)" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems-mediumscreens.css" />
+    <link media="screen and (min-device-width: 90em)" rel="stylesheet" type="text/css" href="/css/tradewaysoftwaresystems-largescreens.css" />
 </head>
 <body class="blogsHome">
 
+<a class="tradewayLink backToHomePageLink" th:href="@{/tombealby}"><strong>Click here</strong><br>To return to: Home Page</a>
+
+<div class="headingContainer">
+
 <h1>Tom Bealby</h1>
 
-<h2 class="email">email: tom.bealby67@gmail.com</h2>
+<h2 class="email">tom.bealby@outlook.com</h2>
+
+</div>
 
 <div th:replace="fragments/tombealby/blogs/blogs :: blogs"></div>
 

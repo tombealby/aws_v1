@@ -1,0 +1,53 @@
+/* The application's default css rules are contained in the file tradewaysoftwaresystems.css. 
+This style sheet adds rules that override those default rules. The overrides will apply to
+devices that have medium screens, such as small laptops and ipads  */
+
+
+.intro, .summary, .motivation, .employments,
+.qualifications, .bookreviews, .imagecontainer,
+.blogs, .blogList, .homePage div, .tradewayLink,
+.mainHeading, .tablecontainer {
+	width: 80%;
+}
+
+.homePage .tradewayLink {
+	width: 30%;
+}
+
+#employments .mainHeading, #blogs .mainHeading {
+	background-size: 140%;
+}
+
+#seniorDeveloper img, #juniorDeveloper img, #codeReviews img {
+	width: 70%;
+}
+
+#motivation .mainHeading {
+	background-size: 145%;
+	background-position-x: 85%;
+}
+
+.collapsible {
+	width: 55%;
+}
+
+caption {
+	font-size: 1.4em;
+}
+
+.headingContainer h1, .headingContainer h2 {
+	font-size: 200%;
+}
+
+#cv .backToHomePageLink, .backToHomePageLink {
+	width: 15%;
+	margin: unset;
+	margin-top: 0em;
+	margin-left: 2%;
+	margin-bottom: 0.5em;
+	float: left;
+}
+
+.headingContainer {
+	padding-right: 20%;
+}

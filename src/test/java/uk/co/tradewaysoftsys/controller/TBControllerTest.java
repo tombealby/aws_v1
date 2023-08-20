@@ -51,9 +51,9 @@ public class TBControllerTest {
 //	}
 
 	private String makeExpectedMainHeading() {
-		return "<h1>Tom Bealby Home Page</h1>\n" +
+		return "<h1>Tom Bealby</h1>\n" +
 				"\n" +
-				"<h2 class=\"email\">email: tom.bealby67@gmail.com</h2>";
+				"<h2 class=\"email\">email: tom.bealby@outlook.com</h2>";
 	}
 
 }
