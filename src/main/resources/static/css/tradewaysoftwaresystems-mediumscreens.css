@@ -6,7 +6,7 @@ devices that have medium screens, such as small laptops and ipads  */
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
 .blogs, .blogList, .homePage div, .tradewayLink,
-.mainHeading, .tablecontainer {
+.mainHeading, .tablecontainer, #summary .mainHeading {
 	width: 80%;
 }
 

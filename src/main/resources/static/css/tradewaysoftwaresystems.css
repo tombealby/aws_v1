@@ -202,6 +202,9 @@ span.code {
 
 #summary .mainHeading {
 	background: url("/images/pexels-anton-atanasov-221016.jpg") no-repeat center;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #qualifications .mainHeading {
