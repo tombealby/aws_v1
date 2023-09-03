@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby/cv</loc>
+  <loc>http://www.tradewaysoftsys.co.uk/tombealby</loc>
   <lastmod>2023-09-03</lastmod>
 </url>
 
@@ -12,7 +12,12 @@
 </url>
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby</loc>
+  <loc>http://www.tradewaysoftsys.co.uk/tombealby/bookReviews</loc>
+  <lastmod>2023-09-03</lastmod>
+</url>
+
+<url>
+  <loc>http://www.tradewaysoftsys.co.uk/tombealby/cv</loc>
   <lastmod>2023-09-03</lastmod>
 </url>
 
