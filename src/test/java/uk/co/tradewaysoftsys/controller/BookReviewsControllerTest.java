@@ -21,7 +21,7 @@ public class BookReviewsControllerTest {
 
 	@Test
 	public void call_bookReviewsUrl_returnsCvViewAnd200Response() throws Exception {
-		mockMvc.perform(get("/tombealby/bookReviews")).andExpect(status().isOk())
+		mockMvc.perform(get("/tombealby/software-development-books")).andExpect(status().isOk())
 				.andExpect(view().name("fragments/tombealby/bookReviews/bookReviewsHome"));
 	}
 
@@ -32,15 +32,16 @@ public class BookReviewsControllerTest {
 
 	@Test
 	public void call_bookReviewsUrl_returnsResponseBodyWithTitle() throws Exception {
-		mockMvc.perform(get("/tombealby/bookReviews"))
+		mockMvc.perform(get("/tombealby/software-development-books"))
 		.andExpect(status().isOk())
 				.andExpect(content()
-						.string(containsString("<title>Tom Bealby Software Development Book Reviews</title>")));
+						.string(containsString("<title>Software Development Books"
+								+ " - Recommended Books for beginners and experienced developers</title>")));
 	}
 
 	@Test
 	public void call_bookReviewsUrl_returnsResponseBodyWithMainHeading() throws Exception {
-		mockMvc.perform(get("/tombealby/bookReviews"))
+		mockMvc.perform(get("/tombealby/software-development-books"))
 		.andExpect(status().isOk())
 		.andExpect(content().string(containsString(makeExpectedMainHeading())));
 	}
