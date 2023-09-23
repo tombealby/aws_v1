@@ -6,7 +6,7 @@ body, div.tab {
 }
 
 p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
-#blogs #blogsPageHeading {
+#blogs #blogsPageHeading, #farming #farmingPageHeading {
 	text-align: center;
 }
 
@@ -41,7 +41,7 @@ img {
 }
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#problemSolver img {
+#problemSolver img, #farming img {
 	width: 100%;
 }
 
@@ -94,7 +94,7 @@ span.code {
 	text-decoration: underline;
 }
 
-#blogs p, .blogs p, .blogsHome p, #bookreviews p {
+#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p {
 	text-align: justify;
 }
 
@@ -110,7 +110,7 @@ span.code {
 
 #blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy,
 #blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements,
-#bookreviews p.photoAcknowledgements {
+#bookreviews p.photoAcknowledgements, #farming p.authoredBy {
 	text-align: center;
 	margin: auto;
 }
@@ -235,6 +235,13 @@ span.code {
 	text-align: center;
 }
 
+#farming .mainHeading {
+	background: url("/images/potato_picking_in_the_eighties.jpg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 35%;
+}
+
+
 .tradewayLink {
 	display: block;
 	text-align: center;
@@ -321,4 +328,8 @@ caption {
 
 .blogsHome .headingContainer h2.email {
 	font-size: 200%;
+}
+
+p.isDisplayForMediumScreensAndLarger {
+	display: none;
 }
