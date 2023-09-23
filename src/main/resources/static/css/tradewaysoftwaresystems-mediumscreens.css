@@ -20,8 +20,12 @@ devices that have medium screens, such as small laptops and ipads  */
 }
 
 #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#farming img {
+#farming img  {
 	width: 70%;
+}
+
+#familyTragedy #auntyKathAndUncleHarry {
+	width: 55%;
 }
 
 #motivation .mainHeading {
