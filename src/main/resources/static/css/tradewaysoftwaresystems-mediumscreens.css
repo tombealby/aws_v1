@@ -6,7 +6,8 @@ devices that have medium screens, such as small laptops and ipads  */
 .intro, .summary, .motivation, .employments,
 .qualifications, .bookreviews, .imagecontainer,
 .blogs, .blogList, .homePage div, .tradewayLink,
-.mainHeading, .tablecontainer {
+.mainHeading, .tablecontainer, #summary .mainHeading,
+#farming .imagecontainer {
 	width: 80%;
 }
 
@@ -18,8 +19,13 @@ devices that have medium screens, such as small laptops and ipads  */
 	background-size: 140%;
 }
 
-#seniorDeveloper img, #juniorDeveloper img, #codeReviews img {
+#seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
+#farming img  {
 	width: 70%;
+}
+
+#familyTragedy #auntyKathAndUncleHarry {
+	width: 55%;
 }
 
 #motivation .mainHeading {
@@ -50,4 +56,17 @@ caption {
 
 .headingContainer {
 	padding-right: 20%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+p.isDisplayForMediumScreensAndLarger {
+	display: block;
+}
+
+p.isDisplayForSmallScreensOnly {
+	display: none;
 }

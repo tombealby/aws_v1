@@ -34,7 +34,8 @@ public class BookReviewsControllerTest {
 	public void call_bookReviewsUrl_returnsResponseBodyWithTitle() throws Exception {
 		mockMvc.perform(get("/tombealby/bookReviews"))
 		.andExpect(status().isOk())
-		.andExpect(content().string(containsString("<title>Tom Bealby Book Reviews</title>")));
+				.andExpect(content()
+						.string(containsString("<title>Tom Bealby Software Development Book Reviews</title>")));
 	}
 
 	@Test

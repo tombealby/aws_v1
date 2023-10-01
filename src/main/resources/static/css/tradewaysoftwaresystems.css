@@ -6,7 +6,7 @@ body, div.tab {
 }
 
 p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
-#blogs #blogsPageHeading {
+#blogs #blogsPageHeading, #farming #farmingPageHeading {
 	text-align: center;
 }
 
@@ -41,7 +41,7 @@ img {
 }
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#problemSolver img {
+#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry {
 	width: 100%;
 }
 
@@ -94,7 +94,7 @@ span.code {
 	text-decoration: underline;
 }
 
-#blogs p, .blogs p, .blogsHome p, #bookreviews p {
+#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p {
 	text-align: justify;
 }
 
@@ -110,7 +110,7 @@ span.code {
 
 #blogs p.authoredBy, .blogs p.authoredBy, .blogsHome p.authoredBy,
 #blogs p.photoAcknowledgements, .blogs p.photoAcknowledgements,
-#bookreviews p.photoAcknowledgements {
+#bookreviews p.photoAcknowledgements, #farming p.authoredBy {
 	text-align: center;
 	margin: auto;
 }
@@ -202,6 +202,9 @@ span.code {
 
 #summary .mainHeading {
 	background: url("/images/pexels-anton-atanasov-221016.jpg") no-repeat center;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #qualifications .mainHeading {
@@ -232,6 +235,13 @@ span.code {
 	text-align: center;
 }
 
+#farming .mainHeading {
+	background: url("/images/potato_picking_in_the_eighties.jpg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 35%;
+}
+
+
 .tradewayLink {
 	display: block;
 	text-align: center;
@@ -240,11 +250,6 @@ span.code {
 #summary li, #motivation li, #qualifications li , #employments li{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-}
-
-div.summaryList {
-	width: 80%;
-	margin: 2em auto;
 }
 
 .backToHomePageLink {
@@ -323,4 +328,8 @@ caption {
 
 .blogsHome .headingContainer h2.email {
 	font-size: 200%;
+}
+
+p.isDisplayForMediumScreensAndLarger {
+	display: none;
 }
