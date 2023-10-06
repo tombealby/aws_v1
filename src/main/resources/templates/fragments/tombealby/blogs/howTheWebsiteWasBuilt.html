@@ -40,8 +40,8 @@
       use PuTTY to SSH onto the EC2 instance. I pull the latest source code from Git, build and run the project. When I first ran
       the application the application failed to start due to a permissions error on accessing port 80. Port 80 is a privileged port
       needing root user permission to access. Running the application as the root user was an unacceptable security risk. Therefore
-      I switched the application to run on port 8080, and set port forwarding from port 80 to port 8080 on the EC2 instance using the following
-      IP Tables command: <br><span class="code"># sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080 </span></p>
+      I switched the application to run on port 8090, and set port forwarding from port 80 to port 8090 on the EC2 instance using the following
+      IP Tables command: <br><span class="code"># sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8090 </span></p>
  
  	  <h4>After Deployment Jobs</h4>
  	  
