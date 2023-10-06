@@ -7,17 +7,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import uk.co.tradewaysoftsys.pageConfiguration.HomePageConfig;
 
-/**
- *
- *
- */
 @Controller
-public class BookReviewsController {
+public class HomePageController {
 
-	@GetMapping("/tombealby/bookReviews")
-	public String showBookReviews(@RequestParam(value = "displayCvLink", required = false) Boolean displayCvLink,
+	@GetMapping("/tombealby")
+	public String showTomBealbyHome(@RequestParam(value = "displayCvLink", required = false) Boolean displayCvLink,
 			final Model model) {
 		HomePageConfig.setDisplayCvLinkWithDefaultShowLink(displayCvLink, model);
-		return "fragments/tombealby/bookReviews/bookReviewsHome";
+		return "fragments/tombealby/home";
 	}
+
 }
