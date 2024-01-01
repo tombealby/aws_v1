@@ -17,7 +17,7 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 }
 
 
-#employments .mainHeading {
+#employments .mainHeading, #travel .mainHeading {
 	background-size: 100%;
 }
 
@@ -34,7 +34,7 @@ what is best here? I have set at 80% for now, but I am not completely convinced.
 	width: 35%;
 }
 
-#cv .backToHomePageLink, .backToHomePageLink {
+#cv .backToHomePageLink, .backToHomePageLink, #travel .backToHomePageLink {
 	width: 15%;
 	margin-left: 14%;
 }
