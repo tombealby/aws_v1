@@ -20,7 +20,7 @@ devices that have medium screens, such as small laptops and ipads  */
 }
 
 #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#farming img  {
+#farming img, #india_2023 img  {
 	width: 70%;
 }
 
@@ -45,7 +45,7 @@ caption {
 	font-size: 200%;
 }
 
-#cv .backToHomePageLink, .backToHomePageLink {
+#cv .backToHomePageLink, .backToHomePageLink, #travel .backToHomePageLink {
 	width: 15%;
 	margin: unset;
 	margin-top: 0em;
@@ -69,4 +69,9 @@ p.isDisplayForMediumScreensAndLarger {
 
 p.isDisplayForSmallScreensOnly {
 	display: none;
+}
+
+video {
+	width: auto;
+	height: 40em;
 }

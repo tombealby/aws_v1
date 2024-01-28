@@ -6,7 +6,7 @@ body, div.tab {
 }
 
 p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
-#blogs #blogsPageHeading, #farming #farmingPageHeading {
+#blogs #blogsPageHeading, #farming #farmingPageHeading, #india_2023 p.authoredBy {
 	text-align: center;
 }
 
@@ -27,6 +27,10 @@ img {
 	width: 40%;
 }
 
+#travel .tradewayLink {
+	width: 25%;
+}
+
 .blogs .blogList {
 	width: 70%;
 }
@@ -41,7 +45,7 @@ img {
 }
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry {
+#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry, #india_2023 img {
 	width: 100%;
 }
 
@@ -83,6 +87,8 @@ span.code {
 .intro, .mainHeading {
 	background-color: #d0f0f6;
 	padding: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 5em;
 	border-style: ridge;
 	text-align: justify;
 	text-justify: inter-word;
@@ -90,11 +96,16 @@ span.code {
 	margin-bottom: 2em;
 }
 
+.homePage .mainHeading {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 #blogs button {
 	text-decoration: underline;
 }
 
-#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p {
+#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p, #india_2023 p {
 	text-align: justify;
 }
 
@@ -241,6 +252,20 @@ span.code {
 	background-position-y: 35%;
 }
 
+#travel .mainHeading {
+	background: url("/images/India_2019/Udaipur_street_scene.jpg") no-repeat bottom;
+	background-size: 100%;
+	background-position-y: 25%;
+	text-align: center;
+}
+
+#india_2023 .mainHeading {
+	background: url("/images/India_2023/Darjeeling_cafe_view.jpg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 0%;
+	text-align: center;
+}
+
 
 .tradewayLink {
 	display: block;
@@ -332,4 +357,10 @@ caption {
 
 p.isDisplayForMediumScreensAndLarger {
 	display: none;
+}
+
+video {
+	width: 100%;
+	margin: 2em auto;
+	display: block;
 }
