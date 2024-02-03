@@ -364,3 +364,10 @@ video {
 	margin: 2em auto;
 	display: block;
 }
+
+p.availabilityText, #blogs p.availabilityText, #bookreviews p.availabilityText,
+#farming p.availabilityText, #india_2023 p.availabilityText {
+	color: red;
+	text-align: center;
+	margin: 2em;
+}

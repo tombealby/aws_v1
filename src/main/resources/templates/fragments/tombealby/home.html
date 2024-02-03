@@ -17,6 +17,10 @@
 </head>
 <body class="homePage">
 
+<div th:if="${not #strings.isEmpty(@environment.getProperty('availabilityText'))}">
+<p class="availabilityText" th:text="${@environment.getProperty('availabilityText')}"></p>
+</div>
+
 <h1>Tom Bealby</h1>
 
 <h2 class="email">email: tom.bealby@outlook.com</h2>

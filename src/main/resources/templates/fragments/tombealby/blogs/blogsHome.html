@@ -13,6 +13,10 @@
 </head>
 <body class="blogsHome">
 
+<div th:if="${not #strings.isEmpty(@environment.getProperty('availabilityText'))}">
+<p class="availabilityText" th:text="${@environment.getProperty('availabilityText')}"></p>
+</div>
+
 <a class="tradewayLink backToHomePageLink" th:href="@{/tombealby?(displayCvLink=${displayCvLink})}"><strong>Click here</strong><br>To return to: Home Page</a>
 
 <div class="headingContainer">

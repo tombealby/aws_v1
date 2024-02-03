@@ -18,6 +18,10 @@
 </head>
 <body id="cv">
 
+<div th:if="${not #strings.isEmpty(@environment.getProperty('availabilityText'))}">
+<p class="availabilityText" th:text="${@environment.getProperty('availabilityText')}"></p>
+</div>
+
 <!-- Tab links -->
 <div class="tab">
   <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'summary')">Summary</button>

@@ -16,6 +16,9 @@
 </head>
 <body id="india_2023">
 
+<div th:if="${not #strings.isEmpty(@environment.getProperty('availabilityText'))}">
+<p class="availabilityText" th:text="${@environment.getProperty('availabilityText')}"></p>
+</div>
 
 <a class="tradewayLink backToHomePageLink" th:href="@{/tombealby/travel?(displayCvLink=${displayCvLink})}"><strong>Click here</strong><br>To return to: Travel Page</a>
 
