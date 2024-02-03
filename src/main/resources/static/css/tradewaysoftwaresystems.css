@@ -351,9 +351,12 @@ caption {
 	margin-bottom: -0.1em;
 }
 
-.blogsHome .headingContainer h2.email, .blogsHome p.availabilityText,
-.homePage p.availabilityText {
+.blogsHome .headingContainer h2.email, .blogsHome p.availabilityText {
 	font-size: 200%;
+}
+
+.homePage p.availabilityText {
+	font-size: 250%;
 }
 
 p.isDisplayForMediumScreensAndLarger {
