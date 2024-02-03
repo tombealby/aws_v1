@@ -75,3 +75,7 @@ video {
 	width: auto;
 	height: 40em;
 }
+
+.blogsHome p.availabilityText, .homePage p.availabilityText {
+	font-size: 100%;
+}

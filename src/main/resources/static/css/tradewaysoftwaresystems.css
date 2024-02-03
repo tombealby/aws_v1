@@ -351,7 +351,8 @@ caption {
 	margin-bottom: -0.1em;
 }
 
-.blogsHome .headingContainer h2.email {
+.blogsHome .headingContainer h2.email, .blogsHome p.availabilityText,
+.homePage p.availabilityText {
 	font-size: 200%;
 }
 
