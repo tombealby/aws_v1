@@ -6,7 +6,8 @@ body, div.tab {
 }
 
 p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
-#blogs #blogsPageHeading, #farming #farmingPageHeading, #india_2023 p.authoredBy {
+#blogs #blogsPageHeading, #farming #farmingPageHeading, #india_2023 p.authoredBy,
+#australia_1989 p.authoredBy {
 	text-align: center;
 }
 
@@ -45,11 +46,12 @@ img {
 }
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
-#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry, #india_2023 img {
+#problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry, #india_2023 img,
+#australia_1989 img {
 	width: 100%;
 }
 
-#motivation img, #qualifications img {
+#motivation img, #qualifications img, #plantingTomatoes img {
 	width: 80%;
 }
 
@@ -105,7 +107,8 @@ span.code {
 	text-decoration: underline;
 }
 
-#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p, #india_2023 p {
+#blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p,
+#india_2023 p, #australia_1989 p {
 	text-align: justify;
 }
 
@@ -266,6 +269,13 @@ span.code {
 	text-align: center;
 }
 
+#australia_1989 .mainHeading {
+	background: url("/images/Australia_1989/farm_from_hill.jpg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 0%;
+	text-align: center;
+}
+
 
 .tradewayLink {
 	display: block;
@@ -370,7 +380,7 @@ video {
 }
 
 p.availabilityText, #blogs p.availabilityText, #bookreviews p.availabilityText,
-#farming p.availabilityText, #india_2023 p.availabilityText {
+#farming p.availabilityText, #india_2023 p.availabilityText, #australia_1989 p.availabilityText {
 	color: red;
 	text-align: center;
 	margin: 2em;
