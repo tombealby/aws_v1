@@ -1,5 +1,9 @@
 /* https://www.w3schools.com/colors/colors_shades.asp */
 
+html {
+  font-size: 120%;
+}
+
 body, div.tab {
 	background-color: #ceebe8;
 	color: #043542;
