@@ -38,4 +38,12 @@ public class TravelController {
 		return "fragments/tombealby/travel/australia_1989";
 	}
 
+	@GetMapping("/tombealby/travel/norway_2026")
+	public String showNorway_2026(@RequestParam(value = "displayCvLink", required = false) Boolean displayCvLink,
+			final Model model) {
+		model.addAttribute("availabilityText", availabilityText);
+		HomePageConfig.setDisplayCvLinkWithDefaultHideLink(displayCvLink, model);
+		return "fragments/tombealby/travel/norway_2026";
+	}
+
 }

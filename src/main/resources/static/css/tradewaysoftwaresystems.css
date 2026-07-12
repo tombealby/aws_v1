@@ -11,7 +11,7 @@ body, div.tab {
 
 p, h1, h2, h3, h4, h5, .bookreviews li, #bookreviews p.bookreviewsubheading,
 #blogs #blogsPageHeading, #farming #farmingPageHeading, #india_2023 p.authoredBy,
-#australia_1989 p.authoredBy {
+#australia_1989 p.authoredBy, #norway_2026 p.authoredBy {
 	text-align: center;
 }
 
@@ -51,7 +51,7 @@ img {
 
 #bookreviews img, #seniorDeveloper img, #juniorDeveloper img, #codeReviews img,
 #problemSolver img, #farming img, #familyTragedy #auntyKathAndUncleHarry, #india_2023 img,
-#australia_1989 img {
+#australia_1989 img, #norway_2026 img {
 	width: 100%;
 }
 
@@ -112,7 +112,7 @@ span.code {
 }
 
 #blogs p, .blogs p, .blogsHome p, #bookreviews p, #farming p,
-#india_2023 p, #australia_1989 p {
+#india_2023 p, #australia_1989 p, #norway_2026 {
 	text-align: justify;
 }
 
@@ -280,6 +280,13 @@ span.code {
 	text-align: center;
 }
 
+#norway_2026 .mainHeading {
+	background: url("/images/Norway_2026/Haugesund_cruise_20260709_from_bus.jpeg") no-repeat bottom;
+	background-size: cover;
+	background-position-y: 0%;
+	text-align: center;
+}
+
 
 .tradewayLink {
 	display: block;
@@ -384,7 +391,8 @@ video {
 }
 
 p.availabilityText, #blogs p.availabilityText, #bookreviews p.availabilityText,
-#farming p.availabilityText, #india_2023 p.availabilityText, #australia_1989 p.availabilityText {
+#farming p.availabilityText, #india_2023 p.availabilityText, #australia_1989 p.availabilityText,
+#norway_2026 p.availabilityText {
 	color: red;
 	text-align: center;
 	margin: 2em;
