@@ -27,8 +27,12 @@ public class SiteMapControllerTest {
 	public void call_sitemapUrl_returnsResponseBodyContainingLocations() throws Exception {
 		final MvcResult result = mockMvc.perform(get("/sitemap.xml")).andReturn();
         final String content = result.getResponse().getContentAsString();
-        assertTrue(content.contains("<loc>http://www.tradewaysoftsys.co.uk/tombealby/cv</loc>"));
-        assertTrue(content.contains("<loc>http://www.tradewaysoftsys.co.uk/tombealby/blogs</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby/blogs</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby/bookReviews</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby/cv</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby/farm</loc>"));
+        assertTrue(content.contains("<loc>http://app.tradewaysoftsys.co.uk/tombealby/travel</loc>"));
 	}
 
 }
