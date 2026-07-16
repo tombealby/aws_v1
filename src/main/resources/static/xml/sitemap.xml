@@ -2,28 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby</loc>
-  <lastmod>2023-09-22</lastmod>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby</loc>
+  <lastmod>2026-07-15</lastmod>
 </url>
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby/blogs</loc>
-  <lastmod>2023-09-03</lastmod>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby/blogs</loc>
+  <lastmod>2026-07-15</lastmod>
 </url>
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby/bookReviews</loc>
-  <lastmod>2023-09-03</lastmod>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby/bookReviews</loc>
+  <lastmod>2026-07-15</lastmod>
 </url>
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby/cv</loc>
-  <lastmod>2023-09-03</lastmod>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby/cv</loc>
+  <lastmod>2026-07-15</lastmod>
 </url>
 
 <url>
-  <loc>http://www.tradewaysoftsys.co.uk/tombealby/farm</loc>
-  <lastmod>2023-09-22</lastmod>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby/farm</loc>
+  <lastmod>2026-07-15</lastmod>
+</url>
+
+<url>
+  <loc>http://app.tradewaysoftsys.co.uk/tombealby/travel</loc>
+  <lastmod>2026-07-15</lastmod>
 </url>
 
 </urlset>
